@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import NavigationSection from "@/components/NavigationSection";
+import FooterSection from "@/components/FooterSection";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -14,7 +16,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Level Services Construction",
-  description: "Level Services Construction are the leading experts on matters construction.",
+  description:
+    "Level Services Construction are the leading experts on matters construction.",
 };
 
 export default function RootLayout({
@@ -27,7 +30,9 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <NavigationSection />
         {children}
+        <FooterSection/>
       </body>
     </html>
   );
