@@ -1,0 +1,23 @@
+import React from "react";
+
+export default function HeroSection() {
+  return (
+    <>
+      <section className="min-h-sceen">
+        <div className="container mx-auto min-h-screen flex items-center px-4 py-10">
+          <div className="space-y-6">
+            <h1 className="text-4xl ">
+              Expert Construction Solutions for the Construction Industry
+            </h1>
+            <p className="text-lg leading-8 text-balance">
+              At Levels Construction, we pride curselves on deliverina
+              excentional construction and engineering services. Our commitment
+              to quality and salety ensures that your profects are completed on
+              ume and to the nignest standards
+            </p>
+          </div>
+        </div>
+      </section>
+    </>
+  );
+}
