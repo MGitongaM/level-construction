@@ -3,19 +3,19 @@ import { Star } from "lucide-react";
 export default function ClientFeedbackSection() {
   return (
     <section className="h-full">
-      <div className="container mx-auto px-4 py-10 space-y-4">
-        <div className="max-2xl space-y-4">
+      <div className="container mx-auto px-4 py-20 space-y-4">
+        <div className="max-2xl space-y-2 pl-20">
           <h2 className="text-3xl font-bold">Client Feedback</h2>
           <p className="leading-8">
             Their expertise made a significant difference in our project
           </p>
         </div>
-        <div className="flex justify-evenly items-center gap-8">
-          <div className="w-5/12">
-            <div className="">
+        <div className="flex justify-evenly items-center gap-8 pt-10">
+          <div className="w-5/12 space-y-6 border rounded-md px-4 py-8">
+            <div className="flex items-center gap-1">
               {[1, 2, 3, 4, 5].map((_, index) => (
                 <span key={index}>
-                  <Star className="size-8" />
+                  <Star className="size-4" />
                 </span>
               ))}
             </div>
@@ -34,11 +34,11 @@ export default function ClientFeedbackSection() {
               </div>
             </div>
           </div>
-          <div className="w-5/12">
-            <div className="">
+          <div className="w-5/12 space-y-6 border rounded-md px-4 py-8">
+            <div className="flex items-center gap-1">
               {[1, 2, 3, 4, 5].map((_, index) => (
                 <span key={index}>
-                  <Star className="size-8" />
+                  <Star className="size-4" />
                 </span>
               ))}
             </div>

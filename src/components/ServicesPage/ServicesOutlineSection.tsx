@@ -1,31 +1,31 @@
 export default function ServicesOutlineSection() {
   return (
     <section className="h-full">
-      <div className="container mx-auto px-4 py-10">
+      <div className="container mx-auto px-4 py-10 space-y-40">
         {/* first outline  */}
         <div className="flex flex-wrap md:flex-wrap justify-evenly itmes-center gap-8">
-          <div className="w-5/12">
-            <h3 className="text-4xl">
+          <div className="w-5/12 space-y-6">
+            <h3 className="text-3xl font-semibold">
               Comprehensive Engineering Solutions for the Construction Industry
             </h3>
             <p className="leading-8">
               Our engineering services are designed to meet the unique
               challenges of the petroleum sector. We leverage advanced
-              technologies and industr expertise to deliver exceptional results
+              technologies and industry expertise to deliver exceptional results
             </p>
-            <div className="flex justify-evenly items-center ga-4">
-              <div className="w-5/12">
+            <div className="flex justify-between items-start gap-4">
+              <div className="w-6/12 space-y-2">
                 <p className="text-xl font-semibold">Innovative desion</p>
                 <p className="leading-8">
                   Tailored encineering desians that enhance efficiency and
                   safety in the construction indusrty
                 </p>
               </div>
-              <div className="w-5/12">
+              <div className="w-6/12 space-y-2">
                 <p className="text-xl font-semibold">Project Management</p>
                 <p className="leading-8">
                   Expert manacement ensuring timel delivery and adherence to
-                  industr standards
+                  industry standards
                 </p>
               </div>
             </div>
@@ -39,8 +39,8 @@ export default function ServicesOutlineSection() {
           <div className="w-5/12">
             <div className="h-96 bg-teal-600 rounded-md"></div>
           </div>
-          <div className="w-5/12">
-            <h3 className="text-4xl">
+          <div className="w-5/12 space-y-6">
+            <h3 className="text-3xl font-semibold">
               Comprehensive Construction Solutions for the Petroleum Industry
             </h3>
             <p className="leading-8">
@@ -49,7 +49,7 @@ export default function ServicesOutlineSection() {
               ensures that every project is executed with precision, safety, and
               efficiency, meeting the unique demands orthis vitalinaustry
             </p>
-            {/* <div className="flex justify-evenly items-center ga-4">
+            {/* <div className="flex justify-between items-center gap-4">
               <div className="w-5/12">
                 <p className="text-xl font-semibold">Innovative desion</p>
                 <p className="leading-8">
@@ -69,25 +69,25 @@ export default function ServicesOutlineSection() {
         </div>
         {/* third outline  */}
         <div className="flex flex-wrap md:flex-wrap justify-evenly itmes-center gap-8">
-          <div className="w-5/12">
-            <h3 className="text-4xl">
+          <div className="w-5/12 space-y-6">
+            <h3 className="text-3xl font-semibold">
               Expert Project Management for Your Success
             </h3>
             <p className="leading-8">
-              our Project Management services ensure that every phase of your
+              Our Project Management services ensure that every phase of your
               constructon projectis executed with precision and enticiency. we
               prontize communication and collaboration to meet vour specific
               needs and timelines.
             </p>
-            <div className="flex justify-evenly items-center ga-4">
-              <div className="w-5/12">
+            <div className="flex justify-between items-start gap-4">
+              <div className="w-6/12 space-y-2">
                 <p className="text-xl font-semibold">Innovative desion</p>
                 <p className="leading-8">
                   Tailored encineering desians that enhance efficiency and
                   safety in the construction indusrty
                 </p>
               </div>
-              <div className="w-5/12">
+              <div className="w-6/12 space-y-2">
                 <p className="text-xl font-semibold">Project Management</p>
                 <p className="leading-8">
                   Expert manacement ensuring timel delivery and adherence to

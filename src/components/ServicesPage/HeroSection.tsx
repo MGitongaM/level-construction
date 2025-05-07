@@ -3,7 +3,7 @@ import { heroEntries } from "@/staticData/ServicesPage/HeroSectionData";
 export default function HeroSection() {
   return (
     <section className="min-h-[80dvh]">
-      <div className="conainer mx-auto px-4 py-10">
+      <div className="min-h-[80dvh] grid place-content-center conainer mx-auto px-4 py-10">
         <div className="max-w-2xl mx-auto text-center space-y-4">
           <h1 className="text-4xl font-bold">
             Comprehensive Solutions for the Construction Industry
@@ -15,7 +15,7 @@ export default function HeroSection() {
             project is excuted with precision and efficiency.
           </p>
         </div>
-        <div className="flex flex-wrap md:flex-nowrap justify-evenly items-center gap-8 pt-6">
+        <div className="flex flex-wrap md:flex-nowrap justify-evenly items-start gap-20 pt-20 px-20">
           {heroEntries.map((entry) => (
             <div key={entry.id} className="flex flex-col gap-4">
               <span>{entry.icon}</span>

@@ -5,20 +5,23 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "..
 export default function FAQsSection() {
   return (
     <section className="h-full">
-        <div className="container mx-auto px-4 py-10">
-            <div className="max-w-2xl mx-auto">
-                <h3 className="text-3xl font-semibold">Frequent Asked Questons</h3>
-                <p className="leading-8">Find answers to common questions about our construction services</p>
+        <div className="container mx-auto px-4 py-40 space-y-6">
+            <div className="flex justify-evenly items-center gap-8">
+                <div className="w-6/12 text-center space-y-4">
+                    <h3 className="text-3xl font-semibold">Frequent Asked Questons</h3>
+                    <p className="leading-8">Find answers to common questions about our construction services</p>
+
+                </div>
+                <Accordion type="single" collapsible className="w-6/12">
+                    {faqsEntries.map((entry)=>(
+                        <AccordionItem key={entry.id} value={entry.id.toString()}>
+                            <AccordionTrigger className="hover:no-underline hover:cursor-pointer font-semibold">{entry.title}</AccordionTrigger>
+                            <AccordionContent>{entry.content}</AccordionContent>
+                        </AccordionItem>
+                    ))}
+                </Accordion>
 
             </div>
-            <Accordion type="single" collapsible>
-                {faqsEntries.map((entry)=>(
-                    <AccordionItem key={entry.id} value={entry.id.toString()}>
-                        <AccordionTrigger>{entry.title}</AccordionTrigger>
-                        <AccordionContent>{entry.content}</AccordionContent>
-                    </AccordionItem>
-                ))}
-            </Accordion>
         </div>
     </section>
   )
