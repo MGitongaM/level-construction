@@ -1,10 +1,10 @@
 export default function HeroSection() {
   return (
     <>
-      <section className="min-h-sceen">
+      <section className="min-h-[80dvh]">
         <div className="container mx-auto min-h-screen flex items-center px-4 py-10">
           <div className="max-w-4xl space-y-6">
-            <h1 className="text-7xl font-bold ">
+            <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold ">
               Expert Construction Solutions for the Construction Industry
             </h1>
             <p className="max-w-3xl text-lg font-semibold leading-8 text-balance">

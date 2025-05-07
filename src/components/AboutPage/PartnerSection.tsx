@@ -12,14 +12,14 @@ export default function PartnerSection() {
             quality and safelty. Our specialized services are designed to meet the
             unique demands of the kenyan construction indusry.
             </p>
-            <div className=" flex justify-evenly items-start gap-8">
-            <div className="w-5/12 space-y-6 border rounded-md px-4 py-8">
+            <div className=" flex flex-wrap md:flex-nowrap justify-evenly items-start gap-8">
+            <div className="w-full md:w-5/12 space-y-6 border rounded-md px-4 py-8">
                 <p className="text-xl font-semibold">Innovative</p>
                 <p className="leading-8">
                 Tailored solutions for your construction needs
                 </p>
             </div>
-            <div className="w-5/12 space-y-6 border rounded-md px-4 py-8">
+            <div className="w-full md:w-5/12 space-y-6 border rounded-md px-4 py-8">
                 <p className="text-xl font-semibold">Reliable</p>
                 <p className="leading-8">
                 Building trust through quality workmanships

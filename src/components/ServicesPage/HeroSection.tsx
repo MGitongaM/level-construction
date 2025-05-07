@@ -15,7 +15,7 @@ export default function HeroSection() {
             project is excuted with precision and efficiency.
           </p>
         </div>
-        <div className="flex flex-wrap md:flex-nowrap justify-evenly items-start gap-20 pt-20 px-20">
+        <div className="flex flex-wrap md:flex-nowrap justify-evenly items-start gap-10 lg:gap-20 pt-20 lg:px-20">
           {heroEntries.map((entry) => (
             <div key={entry.id} className="flex flex-col gap-4">
               <span>{entry.icon}</span>

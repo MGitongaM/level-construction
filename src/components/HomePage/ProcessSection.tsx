@@ -10,7 +10,7 @@ export default function ProcessSection() {
               Understanding Our Construction Process for the Construction
               Industry
             </h2>
-            <div className="flex justify-evenly items-center gap-8 py-20">
+            <div className="flex flex-wrap md:flex-nowrap justify-evenly items-center gap-8 py-20">
               {ProcessEntries.map((process) => (
                 <div key={process.id} className="flex flex-col gap-4">
                   <div className="h-48 bg-teal-300 rounded-md"></div>
