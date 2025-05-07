@@ -6,13 +6,13 @@ export default function CTASection() {
     <>
       <section className="h-full">
         <div className="container m-auto px-4 py-20">
-          <div className="flex justify-center items-center gap-8">
-            <div className="w-4/12">
+          <div className="flex flex-wrap md:flex-nowrap justify-center items-center gap-8">
+            <div className="w-full md:w-5/12 lg:w-4/12">
             <div className="max-w-lg mx-auto">
-              <p className="text-5xl">Get Your Free Consultation Today</p>
+              <p className="text-3xl lg:text-5xl">Get Your Free Consultation Today</p>
             </div>
             </div>
-            <div className="w-4/12 space-y-6">
+            <div className="w-full md:w-6/12 lg:w-4/12 space-y-6">
               <p className="leading-8">
                 At LevelsConstruction, we understand the unique challenges of
                 the construction industry. Contact us now to discuss how our

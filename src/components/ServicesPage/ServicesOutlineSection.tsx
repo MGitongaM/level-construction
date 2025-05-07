@@ -4,7 +4,7 @@ export default function ServicesOutlineSection() {
       <div className="container mx-auto px-4 py-10 space-y-40">
         {/* first outline  */}
         <div className="flex flex-wrap md:flex-wrap justify-evenly itmes-center gap-8">
-          <div className="w-5/12 space-y-6">
+          <div className="w-full md:w-6/12 lg:w-5/12 space-y-6">
             <h3 className="text-3xl font-semibold">
               Comprehensive Engineering Solutions for the Construction Industry
             </h3>
@@ -14,15 +14,15 @@ export default function ServicesOutlineSection() {
               technologies and industry expertise to deliver exceptional results
             </p>
             <div className="flex justify-between items-start gap-4">
-              <div className="w-6/12 space-y-2">
-                <p className="text-xl font-semibold">Innovative desion</p>
+              <div className="w-full md:w-6/12 space-y-2">
+                <p className="text-base md:text-xl font-semibold">Innovative desion</p>
                 <p className="leading-8">
                   Tailored encineering desians that enhance efficiency and
                   safety in the construction indusrty
                 </p>
               </div>
-              <div className="w-6/12 space-y-2">
-                <p className="text-xl font-semibold">Project Management</p>
+              <div className="w-full md:w-6/12 space-y-2">
+                <p className="text-base md:text-xl font-semibold">Project Management</p>
                 <p className="leading-8">
                   Expert manacement ensuring timel delivery and adherence to
                   industry standards
@@ -30,16 +30,16 @@ export default function ServicesOutlineSection() {
               </div>
             </div>
           </div>
-          <div className="w-5/12">
+          <div className="w-full md:w-5/12">
             <div className="h-96 bg-teal-600 rounded-md"></div>
           </div>
         </div>
         {/* second outline  */}
         <div className="flex flex-wrap md:flex-wrap justify-evenly itmes-center gap-8">
-          <div className="w-5/12">
+          <div className="w-full md:w-5/12">
             <div className="h-96 bg-teal-600 rounded-md"></div>
           </div>
-          <div className="w-5/12 space-y-6">
+          <div className="w-full md:w-5/12 space-y-6">
             <h3 className="text-3xl font-semibold">
               Comprehensive Construction Solutions for the Petroleum Industry
             </h3>
@@ -69,7 +69,7 @@ export default function ServicesOutlineSection() {
         </div>
         {/* third outline  */}
         <div className="flex flex-wrap md:flex-wrap justify-evenly itmes-center gap-8">
-          <div className="w-5/12 space-y-6">
+          <div className="w-full md:w-6/12 lg:w-5/12 space-y-6">
             <h3 className="text-3xl font-semibold">
               Expert Project Management for Your Success
             </h3>
@@ -81,14 +81,14 @@ export default function ServicesOutlineSection() {
             </p>
             <div className="flex justify-between items-start gap-4">
               <div className="w-6/12 space-y-2">
-                <p className="text-xl font-semibold">Innovative desion</p>
+                <p className="text-base md:text-xl font-semibold">Innovative desion</p>
                 <p className="leading-8">
                   Tailored encineering desians that enhance efficiency and
                   safety in the construction indusrty
                 </p>
               </div>
               <div className="w-6/12 space-y-2">
-                <p className="text-xl font-semibold">Project Management</p>
+                <p className="text-base md:text-xl font-semibold">Project Management</p>
                 <p className="leading-8">
                   Expert manacement ensuring timel delivery and adherence to
                   industr standards
@@ -96,7 +96,7 @@ export default function ServicesOutlineSection() {
               </div>
             </div>
           </div>
-          <div className="w-5/12">
+          <div className="w-full md:w-5/12">
             <div className="h-96 bg-teal-600 rounded-md"></div>
           </div>
         </div>

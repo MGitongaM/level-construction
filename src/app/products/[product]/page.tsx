@@ -17,8 +17,8 @@ export default async function page({
     <section className="min-h-screen">
       <div className="container mx-auto px-4 py-20">
         {Item != undefined ? (
-          <div className="flex justify-evenly items-center gap-8">
-            <div className="w-4/12">
+          <div className="flex flex-wrap md:flex-nowrap justify-evenly items-center gap-8">
+            <div className="w-full md:w-4/12">
               
               <ImageView
                 imageSrc={Item.imagSrc}
@@ -28,7 +28,7 @@ export default async function page({
                 classNames="object-contain h-96 w-full bg-slate-100 hover:bg-slate-200 rounded-lg p-1"
               />
             </div>
-            <div className="w-5/12">
+            <div className="w-full md:w-5/12">
               <p className="leading-7 px-4">{Item.details}</p>
               <div
                 className="py-8 px-4 prose"
@@ -37,12 +37,12 @@ export default async function page({
             </div>
           </div>
         ) : null}
-      <div className=" pt-20 pl-20">
+      <div className=" pt-20 pl-0 md:pl-20">
         <p className="text-xl font-bold pb-10">Related Products</p>
         <div className="flex flex-wrap justify-evenly items-start gap-x-2 gap-y-20">
           {relatedProducts.map((product) => (
             // <Link href={`products/${product.id}`} key={product.id} className="w-2/12">
-            <Link href={`/products/${product.id}`} key={product.id} className="w-2/12">
+            <Link href={`/products/${product.id}`} key={product.id} className="w-5/12 md:w-2/12">
               <div >
                 <ImageView
                   imageSrc={product.imagSrc}
