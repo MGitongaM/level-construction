@@ -7,13 +7,13 @@ export default function AllProcuctsSection() {
   return (
     <section className="min-h-screen">
       <div className="container mx-auto px-4 py-20">
-        <div className="flex flex-wrap justify-evenly items-center gap-x-2 gap-y-20">
+        <div className="flex flex-wrap justify-evenly items-start gap-x-2 gap-y-20">
           {products.map((product) => (
             <Link
               href={`products/${product.id}`}
               key={product.id}
               className="w-5/12  md:w-3/12"
-              legacyBehavior>
+              >
               <div >
                 {/* <div className="w-full h-96 bg-teal-300 rounded-lg"></div> */}
                 <ImageView
@@ -21,7 +21,8 @@ export default function AllProcuctsSection() {
                   height={800}
                   width={800}
                   alt={product.title}
-                  classNames="object-contain h-96 w-full bg-slate-100 hover:bg-slate-200 rounded-lg p-1"
+                  // classNames="object-contain h-96 w-full bg-slate-100 hover:bg-slate-200 rounded-lg p-1"
+                  classNames="object-contain h-96 w-full bg-teal-50 hover:bg-teal-100 rounded-lg p-2"
                 />
                 <div className="text- px-8">
                   {/* <p className="text-lg font-semibold">KSH</p> */}
