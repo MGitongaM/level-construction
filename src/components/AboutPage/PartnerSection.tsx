@@ -1,3 +1,5 @@
+import ImageView from "../NextCloudinary/ImageView";
+
 export default function PartnerSection() {
   return (
     <section className="h-full">
@@ -5,7 +7,14 @@ export default function PartnerSection() {
         <h2 className="text-2xl font-bold text-center">
           Your Trusted Partner in Construction Services
         </h2>
-        <div className="h-96 w-full bg-teal-100 rounded-md"></div>
+        {/* <div className="h-96 w-full bg-teal-100 rounded-md"></div> */}
+        <ImageView
+                      imageSrc="Trusted_Partner_vhauhq"
+                      height={800}
+                      width={800}
+                      alt={`Level service construction trusted partner image`}
+                      classNames="object-cover bg-teal-200 h-96 w-full bg-teal-300 rounded-md"
+                    />
         <div className="max-w-3xl mx-auto space-y-6">
             <p className="text-balance leading-8 text-center">
             At level service construction we pride ourselves on our commitment to
@@ -13,13 +22,13 @@ export default function PartnerSection() {
             unique demands of the kenyan construction indusry.
             </p>
             <div className=" flex flex-wrap md:flex-nowrap justify-evenly items-start gap-8">
-            <div className="w-full md:w-5/12 space-y-6 border rounded-md px-4 py-8">
+            <div className="w-full md:w-6/12 space-y-6 border border-teal-400 rounded-md px-4 py-8">
                 <p className="text-xl font-semibold">Innovative</p>
                 <p className="leading-8">
                 Tailored solutions for your construction needs
                 </p>
             </div>
-            <div className="w-full md:w-5/12 space-y-6 border rounded-md px-4 py-8">
+            <div className="w-full md:w-6/12 space-y-6 border border-teal-400 rounded-md px-4 py-8">
                 <p className="text-xl font-semibold">Reliable</p>
                 <p className="leading-8">
                 Building trust through quality workmanships

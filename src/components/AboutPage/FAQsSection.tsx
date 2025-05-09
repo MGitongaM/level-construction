@@ -16,7 +16,7 @@ export default function FAQsSection() {
                     {faqsEntries.map((entry)=>(
                         <AccordionItem key={entry.id} value={entry.id.toString()}>
                             <AccordionTrigger className="hover:no-underline hover:cursor-pointer font-semibold">{entry.title}</AccordionTrigger>
-                            <AccordionContent>{entry.content}</AccordionContent>
+                            <AccordionContent className="bg-teal-100 rounded-t-md px-4 py-8">{entry.content}</AccordionContent>
                         </AccordionItem>
                     ))}
                 </Accordion>

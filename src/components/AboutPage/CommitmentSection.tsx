@@ -1,3 +1,5 @@
+import ImageView from "../NextCloudinary/ImageView";
+
 export default function CommitmentSection() {
   return (
     <section className="min-h-[80dvh]">
@@ -17,7 +19,14 @@ export default function CommitmentSection() {
             </p>
           </div>
           <div className="w-full md:w-6/12">
-            <div className="h-96 bg-teal-600 rounded-md"></div>
+            {/* <div className="h-96 bg-teal-600 rounded-md"></div> */}
+            <ImageView
+                          imageSrc="Building_a_Stronger_Future_j6dndr"
+                          height={800}
+                          width={800}
+                          alt={`Level service construction building stronger future image`}
+                          classNames="object-cover bg-teal-200 h-full w-full bg-teal-300 rounded-md"
+                        />
           </div>
         </div>
       </div>
