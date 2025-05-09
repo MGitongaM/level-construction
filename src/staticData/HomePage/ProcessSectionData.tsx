@@ -13,7 +13,7 @@ export const ProcessEntries = [
   },
   {
     id: 3,
-    imageSrc: "Execution_and_Quality_Control_foe5wr ",
+    imageSrc: "Execution_and_Quality_Control_foe5wr",
     title: "Execution and Quality Control",
     text: "Pur skilled team executes oro acts with strict adherence to quality constrol measures",
   },

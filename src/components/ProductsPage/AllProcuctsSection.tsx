@@ -9,7 +9,11 @@ export default function AllProcuctsSection() {
       <div className="container mx-auto px-4 py-20">
         <div className="flex flex-wrap justify-evenly items-center gap-x-2 gap-y-20">
           {products.map((product) => (
-            <Link href={`products/${product.id}`} key={product.id} className="w-5/12  md:w-3/12">
+            <Link
+              href={`products/${product.id}`}
+              key={product.id}
+              className="w-5/12  md:w-3/12"
+              legacyBehavior>
               <div >
                 {/* <div className="w-full h-96 bg-teal-300 rounded-lg"></div> */}
                 <ImageView
@@ -31,5 +35,5 @@ export default function AllProcuctsSection() {
         </div>
       </div>
     </section>
-  )
+  );
 }

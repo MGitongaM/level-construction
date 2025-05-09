@@ -52,7 +52,8 @@ export default function NavigationSection() {
         <NavigationMenuList className="w-[99vw] bg-white flex  justify-between items-center px-1 lg:px-16 ">
           <div className="w-full p-2">
             <NavigationMenuItem>
-              <Link href={`/`} className="flex items-center">
+              <Link href={`/`} className="flex items-center" legacyBehavior passHref>
+              <div className="flex">
                 <ImageView
                   // imageSrc="level_services_logo_bg-transparent_ellvje"
                   imageSrc="levels_services_transparent_logo_only_zquhit"
@@ -62,6 +63,8 @@ export default function NavigationSection() {
                   classNames="object-cover size-12 lg:size-20"
                 />
                 <p className="font-semibold">Level Services Construction</p>
+
+              </div>
               </Link>
             </NavigationMenuItem>
           </div>
@@ -78,14 +81,13 @@ export default function NavigationSection() {
           </div>
         </NavigationMenuList>
       </NavigationMenu>
-
       {/* mobile menu */}
       <NavigationMenu className="block md:hidden">
         <NavigationMenuList>
           <div className="w-[99vw] flex justify-between items-center px-1">
             <div className="c">
               <NavigationMenuItem>
-                <Link href={`/`} className="flex items-center">
+                <Link href={`/`} className="flex items-center" legacyBehavior>
                   <ImageView
                     imageSrc="levels_services_transparent_logo_only_zquhit"
                     height={400}

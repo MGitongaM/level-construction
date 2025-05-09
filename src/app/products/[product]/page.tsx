@@ -42,7 +42,11 @@ export default async function page({
         <div className="flex flex-wrap justify-evenly items-start gap-x-2 gap-y-20">
           {relatedProducts.map((product) => (
             // <Link href={`products/${product.id}`} key={product.id} className="w-2/12">
-            <Link href={`/products/${product.id}`} key={product.id} className="w-5/12 md:w-2/12">
+            (<Link
+              href={`/products/${product.id}`}
+              key={product.id}
+              className="w-5/12 md:w-2/12"
+              legacyBehavior>
               <div >
                 <ImageView
                   imageSrc={product.imagSrc}
@@ -58,7 +62,7 @@ export default async function page({
                   </p>
                 </div>
               </div>
-            </Link>
+            </Link>)
           ))}
         </div>
       </div>
