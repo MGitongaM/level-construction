@@ -6,7 +6,7 @@ export default function CTASection() {
     <>
       <section className="h-full">
         <div className="container m-auto px-4 py-20">
-          <div className="flex flex-wrap md:flex-nowrap justify-center items-center gap-8">
+          <div className="flex flex-wrap md:flex-nowrap justify-center items-center gap-8 border border-teal-400 rounded-md px-4 py-8 ">
             <div className="w-full md:w-5/12 lg:w-4/12">
             <div className="max-w-lg mx-auto">
               <p className="text-3xl lg:text-5xl">Get Your Free Consultation Today</p>

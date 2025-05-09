@@ -1,4 +1,5 @@
 import { CheckCircle } from "lucide-react";
+import ImageView from "../NextCloudinary/ImageView";
 
 export default function DiscoverSection() {
   return (
@@ -31,7 +32,14 @@ export default function DiscoverSection() {
             </ul>
           </div>
           <div className="w-full md:w-6/12">
-            <div className="min-h-96 bg-teal-200 rounded-md"></div>
+            {/* <div className="min-h-96 bg-teal-200 rounded-md"></div> */}
+            <ImageView
+              imageSrc="discover_-_benefits_suo5ap"
+              height={800}
+              width={800}
+              alt={`Level service construction benefits image`}
+              classNames="object-cover bg-teal-200 h-full w-full bg-teal-300 rounded-md"
+            />
           </div>
         </div>
       </div>

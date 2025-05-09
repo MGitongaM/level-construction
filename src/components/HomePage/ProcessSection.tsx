@@ -20,7 +20,7 @@ export default function ProcessSection() {
                     height={800}
                     width={800}
                     alt={`Level service construction - ${process.title} image`}
-                    classNames="object-cover h-48 bg-teal-300 rounded-md"
+                    classNames="object-cover h-64 bg-teal-300 rounded-md"
                   />
                   <p className="text-2xl">{process.title}</p>
                   <p className="">{process.text}</p>

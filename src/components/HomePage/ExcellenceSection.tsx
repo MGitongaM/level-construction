@@ -12,9 +12,9 @@ export default function ExcellenceSection() {
               rigorous protocols ensure a secure working environment for all
             </p>
           </div>
-          <div className="flex flex-wrap md:flex-nowrap justify-evenly items-start gap-8 pt-14 lg:pt-40 pb-20 ">
+          <div className="flex flex-wrap md:flex-nowrap justify-evenly items-start gap-8 pt-14 lg:pt-20 pb-20 ">
             {ExcellenceEntries.map((entry) => (
-              <div key={entry.id} className="flex flex-col gap-8 px-4 py-8 min-h-[40vh] border-2 border-teal-50 rounded-lg">
+              <div key={entry.id} className="flex flex-col gap-8 px-4 py-8 min-h-[40vh] w-full md:w-4/12 border-2 border-teal-50 rounded-lg">
                 <span>{entry.icon}</span>
                 <p className="text-2xl">{entry.title}</p>
                 <p className="">{entry.text}</p>
