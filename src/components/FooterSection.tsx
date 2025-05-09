@@ -37,24 +37,24 @@ export default function FooterSection() {
                   <Link href={`/products`}>Products</Link>
                 </li>
                 <li className="hover:underline underline-offset-2">
-                  <Link href={`/#testimonials`}>Testimonials</Link>
+                  <Link href={`/our-services/#click-testimonials`}>Testimonials</Link>
                 </li>
                 <li className="hover:underline underline-offset-2">
-                  <Link href={`/#quote`}>Get a Quote</Link>
+                  <Link href={`/our-services`}>Services</Link>
                 </li>
               </ul>
             </div>
             <div className="c">
               <ul className="list-none space-y-4">
                 <li className="hover:underline underline-offset-2">
-                  <Link href={`/our-services/#faqs`}>FAQS</Link>
+                  <Link href={`/about-us/#faqs`}>FAQS</Link>
                 </li>
                 <li className="hover:underline underline-offset-2">
                   <Link href={`/contact-us`}>Contact Us</Link>
                 </li>
-                <li className="hover:underline underline-offset-2">
+                {/* <li className="hover:underline underline-offset-2">
                   <Link href={`/trucks`}>Trucks</Link>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>

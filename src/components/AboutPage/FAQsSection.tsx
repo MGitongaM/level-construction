@@ -4,7 +4,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "..
 
 export default function FAQsSection() {
   return (
-    <section className="h-full">
+    <section className="h-full" id="faqs">
         <div className="container mx-auto px-4 py-40 space-y-6">
             <div className="flex flex-wrap md:flex-nowrap justify-evenly items-center gap-8">
                 <div className="w-full md:w-6/12 text-center space-y-4">

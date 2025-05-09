@@ -3,7 +3,7 @@ import ImageView from "../NextCloudinary/ImageView";
 
 export default function ClientFeedbackSection() {
   return (
-    <section className="h-full">
+    <section className="h-full" id="click-testimonials">
       <div className="container mx-auto px-4 py-20 space-y-4">
         <div className="max-2xl space-y-2 pl-1 md:pl-20">
           <h2 className="text-3xl font-bold">Client Feedback</h2>
