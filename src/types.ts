@@ -5,3 +5,9 @@ export interface ImageProps {
   alt: string;
   classNames: string;
 }
+export interface VideoProps {
+  videoSrc: string;
+  height: number;
+  width: number;
+  classNames: string;
+}
