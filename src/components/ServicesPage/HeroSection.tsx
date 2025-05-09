@@ -2,7 +2,7 @@ import { heroEntries } from "@/staticData/ServicesPage/HeroSectionData";
 
 export default function HeroSection() {
   return (
-    <section className="min-h-[80dvh]">
+    <section className="min-h-[80dvh] bg-teal-100">
       <div className="min-h-[80dvh] grid place-content-center conainer mx-auto px-4 py-10">
         <div className="max-w-2xl mx-auto text-center space-y-4">
           <h1 className="text-4xl font-bold">

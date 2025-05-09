@@ -1,6 +1,6 @@
 export default function HeroSection() {
   return (
-    <section className="min-h-[80dvh] bg-teal-500">
+    <section className="min-h-[80dvh] bg-teal-100">
       <div className="min-h-[80dvh] grid place-content-center container mx-auto px-4 py-10 space-y-6">
         <div className="max-w-2xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl font-bold">Building Future Solutions</h1>

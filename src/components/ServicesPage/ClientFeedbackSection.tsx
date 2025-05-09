@@ -1,4 +1,5 @@
 import { Star } from "lucide-react";
+import ImageView from "../NextCloudinary/ImageView";
 
 export default function ClientFeedbackSection() {
   return (
@@ -11,7 +12,7 @@ export default function ClientFeedbackSection() {
           </p>
         </div>
         <div className="flex flex-wrap md:flex-nowrap justify-evenly items-center gap-8 pt-10">
-          <div className="w-full md:w-5/12 space-y-6 border rounded-md px-4 py-8">
+          <div className="w-full md:w-5/12 space-y-6 border border-teal-300 rounded-md px-4 py-8">
             <div className="flex items-center gap-1">
               {[1, 2, 3, 4, 5].map((_, index) => (
                 <span key={index}>
@@ -26,7 +27,15 @@ export default function ClientFeedbackSection() {
             </p>
             <div className="flex justify-between items-center gap-4">
               <div className="w-5/12 ">
-                <div className="bg-teal-400 size-12 rounded-lg"></div>
+                <div className="bg-teal-400 size-12 rounded-lg">
+                <ImageView
+                    imageSrc="Expert_Project_Management_jxpehn"
+                    height={800}
+                    width={800}
+                    alt={`Level service construction services client image`}
+                    classNames="object-cover bg-teal-400 h-full w-full bg-teal-300 rounded-md"
+                  />
+                </div>
               </div>
               <div className="w-5/12">
                 <p className="font-semibold">Wanga Zama</p>
@@ -34,7 +43,7 @@ export default function ClientFeedbackSection() {
               </div>
             </div>
           </div>
-          <div className="w-full md:w-5/12 space-y-6 border rounded-md px-4 py-8">
+          <div className="w-full md:w-5/12 space-y-6 border border-teal-300 rounded-md px-4 py-8">
             <div className="flex items-center gap-1">
               {[1, 2, 3, 4, 5].map((_, index) => (
                 <span key={index}>
@@ -49,11 +58,19 @@ export default function ClientFeedbackSection() {
             </p>
             <div className="flex justify-between items-center gap-4">
               <div className="w-5/12 ">
-                <div className="bg-teal-400 size-12 rounded-lg"></div>
+                <div className="bg-teal-400 size-12 rounded-lg">
+                  <ImageView
+                    imageSrc="Expert_Project_Management_jxpehn"
+                    height={800}
+                    width={800}
+                    alt={`Level service construction services client image`}
+                    classNames="object-cover bg-teal-400 h-full w-full bg-teal-300 rounded-md"
+                  />
+                </div>
               </div>
               <div className="w-5/12">
-                <p className="font-semibold">Wanga Zama</p>
-                <p className="">Director, Acme Limited</p>
+                <p className="font-semibold">Banda Kanda</p>
+                <p className="">Manager, Luka Mint</p>
               </div>
             </div>
           </div>
