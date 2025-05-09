@@ -52,8 +52,7 @@ export default function NavigationSection() {
         <NavigationMenuList className="w-[99vw] bg-white flex  justify-between items-center px-1 lg:px-16 ">
           <div className="w-full p-2">
             <NavigationMenuItem>
-              <Link href={`/`} className="flex items-center" legacyBehavior passHref>
-              <div className="flex">
+              <Link href={`/`} className="flex items-center">
                 <ImageView
                   // imageSrc="level_services_logo_bg-transparent_ellvje"
                   imageSrc="levels_services_transparent_logo_only_zquhit"
@@ -63,15 +62,13 @@ export default function NavigationSection() {
                   classNames="object-cover size-12 lg:size-20"
                 />
                 <p className="font-semibold">Level Services Construction</p>
-
-              </div>
               </Link>
             </NavigationMenuItem>
           </div>
           <div className=" flex gap-x-2 justify-end w-full">
             {navigationLinks.map((nav) => (
               <NavigationMenuItem key={nav.id}>
-                <Link href={nav.hrefLink} legacyBehavior passHref>
+                <Link href={nav.hrefLink}>
                   <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                     {nav.title}
                   </NavigationMenuLink>
@@ -87,7 +84,7 @@ export default function NavigationSection() {
           <div className="w-[99vw] flex justify-between items-center px-1">
             <div className="c">
               <NavigationMenuItem>
-                <Link href={`/`} className="flex items-center" legacyBehavior>
+                <Link href={`/`} className="flex items-center">
                   <ImageView
                     imageSrc="levels_services_transparent_logo_only_zquhit"
                     height={400}
@@ -114,7 +111,7 @@ export default function NavigationSection() {
                   <div className=" flex flex-col gap-x-2 justify-end items-end list-none text-left pr-10 w-full">
                     {navigationLinks.map((nav) => (
                       <NavigationMenuItem key={nav.id}>
-                        <Link href={nav.hrefLink} legacyBehavior passHref>
+                        <Link href={nav.hrefLink}>
                           <NavigationMenuLink
                             className={navigationMenuTriggerStyle()}
                           >

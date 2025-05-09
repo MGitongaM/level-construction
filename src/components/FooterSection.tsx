@@ -8,7 +8,7 @@ export default function FooterSection() {
         {/* <div className="flex justify-between items-center bg-green-800 text-slate-100 rounded-xl px-8 py-10"> */}
         <div className="flex flex-wrap md:flex-nowrap justify-between items-center gap-y-8 bg-teal-950 text-slate-100 rounded-xl px-8 py-10">
           <div className="w-full md:w-5/12 space-y-4">
-            <Link href={`/`} className="flex items-center" legacyBehavior>
+            <Link href={`/`} className="flex items-center" >
               <ImageView
                 // imageSrc="level_services_logo_bg-transparent_ellvje"
                 imageSrc="levels_services_transparent_logo_only_zquhit"
