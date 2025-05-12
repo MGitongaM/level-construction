@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import NavigationSection from "@/components/NavigationSection";
 import FooterSection from "@/components/FooterSection";
+import { getCldOgImageUrl } from "next-cloudinary";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -14,10 +15,21 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const url =getCldOgImageUrl({
+  src:"home_ndnwyh",
+})
+
 export const metadata: Metadata = {
   title: "Level Services Construction",
   description:
-    "Level Services Construction are the leading experts on matters construction.",
+    "We deliver exceptional construction and engineering services tailored for the Kenyan market.",
+    openGraph:{
+      images:{
+        width:1200,
+        height:800,
+        url,
+      }
+    }
 };
 
 export default function RootLayout({

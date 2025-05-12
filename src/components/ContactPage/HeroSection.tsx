@@ -8,7 +8,7 @@ export default function HeroSection() {
           <div className="w-full md:w-7/12 space-y-6">
             <h1 className="text-4xl font-bold">Get in Touch</h1>
             <p className="text-lg font-semibold leading-8">
-              Were here to assist vou with anv inquiries or project discussions
+              Were here to assist vou with any inquiries or project discussions
               you may have
             </p>
           </div>
