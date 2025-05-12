@@ -9,5 +9,6 @@ export interface VideoProps {
   videoSrc: string;
   height: number;
   width: number;
+  autoPlay:boolean;
   classNames: string;
 }
