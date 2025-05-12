@@ -1,4 +1,6 @@
+import Link from "next/link";
 import VideoView from "../NextCloudinary/VideoView";
+import { Button } from "../ui/button";
 
 export default function HeroSection() {
   return (
@@ -42,11 +44,11 @@ export default function HeroSection() {
         </div>
 
         {/* Overlay */}
-        <div className="absolute top-0 left-0 w-full h-full bg-teal-700/75 backdrop-blur-sm z-10" />
+        <div className="absolute top-0 left-0 w-full h-full bg-teal-900/85 backdrop-blur-sm z-10" />
 
         {/* Foreground content */}
         <div className="relative z-20 container mx-auto flex min-h-[80dvh] items-center px-4 py-10">
-          <div className="max-w-4xl space-y-6 text-slate-100">
+          <div className="max-w-4xl  space-y-6 text-slate-50">
             <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold">
               Expert Construction Solutions for Kenya&apos;s Leading Industries
             </h1>
@@ -55,8 +57,13 @@ export default function HeroSection() {
               construction and engineering services tailored for the Kenyan
               market. Our unwavering commitment to quality, safety, and timely
               delivery ensures your projects are completed to the highest
-              standards—every time.
+              standards
             </p>
+            <Link href="/contact-us">
+            <Button size='lg' className="bg-teal-500 text-xl text-slate-100 hover:bg-teal-400 hover:text-black hover:scale-110">
+                Contact Us
+              </Button>
+            </Link>
           </div>
         </div>
       </section>
