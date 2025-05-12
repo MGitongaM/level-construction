@@ -8,26 +8,27 @@ export default function DiscoverSection() {
         <div className="flex flex-wrap md:flex-nowrap justify-evenly items-center gap-8">
           <div className="w-full md:w-6/12 lg:w-4/12 space-y-12">
             <h2 className="text-3xl">
-              Discover the Unmatched Benefits of Partnering with Levels
+              Discover the Unmatched Benefits of Partnering with Level Services
               Construction
             </h2>
             <p className="leading-8">
-              Choosing Level Constriction means you get a partner you can trust.
-              Our commitment to reliable, efficiency, and industry expertise
-              ensure your projects are completed on time and within budget.
+              Choosing Level Services Construction means partnering with a team
+              you can trust. Our deep industry expertise, reliability, and focus
+              on efficiency ensure your project is delivered on time, within
+              budget, and to the highest standards
             </p>
             <ul className="list-none space-y-4">
               <li className="flex items-center gap-2">
                 <CheckCircle className="text-teal-300 size-5" />
-                Dependable services you can count on every time
+                Dependable services you can count on, every time
               </li>
               <li className="flex items-center gap-2">
                 <CheckCircle className="text-teal-300 size-5" />
-                Streamlined process for maximum efficiency and productivity
+                Streamlined processes for maximum efficiency and productivity
               </li>
               <li className="flex items-center gap-2">
                 <CheckCircle className="text-teal-300 size-5" />
-                Expertise in the construction indusry and engineering solutions
+                Unmatched expertise in Kenya&apos;s construction and engineering sectors
               </li>
             </ul>
           </div>

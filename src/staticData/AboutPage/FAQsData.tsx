@@ -15,8 +15,8 @@ export const faqsEntries = [
   {
     id: 3,
     title: "What is your experience?",
-    content: `With years in the construction industry, we have successfully completed a number of projects for clienrs 
-    in the petroluem sector. Our team consists of skilled professionals who are experts in their fields. we pride ourselves
+    content: `With years in the construction industry, we have successfully completed a number of projects for clients 
+    in the petroluem sector. Our team consists of skilled professionals who are experts in their fields. We pride ourselves
     on our ability to deliver projects on time and within budget`,
   },
   {

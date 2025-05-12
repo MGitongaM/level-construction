@@ -22,9 +22,9 @@ export default function AllProcuctsSection() {
                   width={800}
                   alt={product.title}
                   // classNames="object-contain h-96 w-full bg-slate-100 hover:bg-slate-200 rounded-lg p-1"
-                  classNames="object-contain h-96 w-full bg-teal-50 hover:bg-teal-100 rounded-lg p-2"
+                  classNames="object-contain h-96 w-full bg-teal-50 hover:shadow-lg  rounded-lg p-2"
                 />
-                <div className="text- px-8">
+                <div className="text- px-8 pt-2">
                   {/* <p className="text-lg font-semibold">KSH</p> */}
                   <p className="text-lg text-center font-semibold">
                     {product.title}

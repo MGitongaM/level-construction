@@ -3,35 +3,39 @@ import ImageView from "../NextCloudinary/ImageView";
 export default function ServicesOutlineSection() {
   return (
     <section className="h-full">
-      <div className="container mx-auto px-4 py-10 space-y-40">
+      <div className="container mx-auto px-4 py-20 space-y-40">
         {/* first outline  */}
         <div className="flex flex-wrap md:flex-wrap justify-evenly itmes-center gap-8">
           <div className="w-full md:w-6/12 lg:w-5/12 space-y-6">
             <h3 className="text-3xl font-semibold">
-              Comprehensive Engineering Solutions for the Construction Industry
+              {/* Comprehensive Solutions for the Construction Industry */}
+              Engineering Excellence for the Construction Industry
             </h3>
             <p className="leading-8">
-              Our engineering services are designed to meet the unique
-              challenges of the petroleum sector. We leverage advanced
-              technologies and industry expertise to deliver exceptional results
+              {/* At Level Services Construction, we deliver a full spectrum of specialized construction solutions, expertly crafted to address the unique challenges and evolving needs of our clients across Kenya and beyond. Our commitment to precision, efficiency, and innovation ensures every project is completed to the highest standards-on time and within budget */}
+              We craft innovative engineering designs that address the evolving
+              needs of the petroleum and general construction sectors. By
+              leveraging cutting-edge tools and a client-focused approach, we
+              guarantee solutions that align with your vision and industry
+              demands
             </p>
             <div className="flex justify-between items-start gap-4">
               <div className="w-full md:w-6/12 space-y-2">
                 <p className="text-base md:text-xl font-semibold">
-                  Innovative desion
+                  Tailored Engineering Design
                 </p>
                 <p className="leading-8">
-                  Tailored encineering desians that enhance efficiency and
-                  safety in the construction indusrty
+                  Efficient, safety-oriented solutions engineered to enhance
+                  project performance
                 </p>
               </div>
               <div className="w-full md:w-6/12 space-y-2">
                 <p className="text-base md:text-xl font-semibold">
-                  Project Management
+                  End-to-End Project Management
                 </p>
                 <p className="leading-8">
-                  Expert manacement ensuring timel delivery and adherence to
-                  industry standards
+                  Strategic oversight that ensures compliance with industry
+                  standards and timely delivery
                 </p>
               </div>
             </div>
@@ -61,13 +65,13 @@ export default function ServicesOutlineSection() {
           </div>
           <div className="w-full md:w-5/12 space-y-6">
             <h3 className="text-3xl font-semibold">
-              Comprehensive Construction Solutions for the Petroleum Industry
+              Petroleum Industry Construction Expertise
             </h3>
             <p className="leading-8">
-              At Level Construction. we nrovide ton-natch construction corviced
-              tailored specifically for the petroleum sector. Our expertise
-              ensures that every project is executed with precision, safety, and
-              efficiency, meeting the unique demands orthis vitalinaustry
+              At Level Services Construction, we bring specialized knowledge to
+              petroleum-sector projects. Our construction solutions are tailored
+              to meet the rigorous safety and quality requirements of this vital
+              industry, ensuring operational integrity from the ground up
             </p>
             {/* <div className="flex justify-between items-center gap-4">
               <div className="w-5/12">
@@ -91,31 +95,29 @@ export default function ServicesOutlineSection() {
         <div className="flex flex-wrap md:flex-wrap justify-evenly itmes-center gap-8">
           <div className="w-full md:w-6/12 lg:w-5/12 space-y-6">
             <h3 className="text-3xl font-semibold">
-              Expert Project Management for Your Success
+              Your Partner in Project Management Excellence
             </h3>
             <p className="leading-8">
-              Our Project Management services ensure that every phase of your
-              constructon projectis executed with precision and enticiency. we
-              prontize communication and collaboration to meet vour specific
-              needs and timelines.
+              We understand that successful projects are built on strong
+              foundations and even stronger management. That&apos;s why we offer
+              expert project management services that oversee every detail with
+              precision, from concept to completion
             </p>
             <div className="flex justify-between items-start gap-4">
               <div className="w-6/12 space-y-2">
                 <p className="text-base md:text-xl font-semibold">
-                  Innovative desion
+                  Strategic Planning & Coordination
                 </p>
                 <p className="leading-8">
-                  Tailored encineering desians that enhance efficiency and
-                  safety in the construction indusrty
+                  Keeping every phase of your project aligned with your goals
                 </p>
               </div>
               <div className="w-6/12 space-y-2">
                 <p className="text-base md:text-xl font-semibold">
-                  Project Management
+                  Risk & Budget Control
                 </p>
                 <p className="leading-8">
-                  Expert manacement ensuring timel delivery and adherence to
-                  industr standards
+                  Minimizing delays and cost overruns through proactive management
                 </p>
               </div>
             </div>

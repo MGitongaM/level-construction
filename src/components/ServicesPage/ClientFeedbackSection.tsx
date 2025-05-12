@@ -21,14 +21,14 @@ export default function ClientFeedbackSection() {
               ))}
             </div>
             <p className="leaading-8">
-              &quot;The team at Levels Construction exceeded our eynectations
-              with their profescionalism and attention to. detail. Every phase
-              of the project was executed flawlessly&quot;
+              &quot;The team at Level Services Construction exceeded our
+              expectations with their professionalism and attention to detail.
+              Every phase of the project was executed flawlessly&quot;
             </p>
             <div className="flex justify-between items-center gap-4">
               <div className="w-5/12 ">
                 <div className="bg-teal-400 size-12 rounded-lg">
-                <ImageView
+                  <ImageView
                     imageSrc="Expert_Project_Management_jxpehn"
                     height={800}
                     width={800}
@@ -52,9 +52,8 @@ export default function ClientFeedbackSection() {
               ))}
             </div>
             <p className="leaading-8">
-              &quot;The team at Levels Construction exceeded our eynectations
-              with their profescionalism and attention to. detail. Every phase
-              of the project was executed flawlessly&quot;
+              &quot;Their expert execution and reliable communication made a
+              real difference. I highly recommend their services&quot;
             </p>
             <div className="flex justify-between items-center gap-4">
               <div className="w-5/12 ">
