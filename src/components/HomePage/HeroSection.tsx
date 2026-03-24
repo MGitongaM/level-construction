@@ -38,13 +38,15 @@ export default function HeroSection() {
             videoSrc="4790141_Building_Working_1280x720_kffqhy"
             width={1920}
             height={1080}
-            autoPlay={true}
-            classNames="w-full h-full object-cover"
+            autoplay="always"
+            muted={true}
+            playsinline={true}
+            classNames="w-full h-full object-cover bg-left"
           />
         </div>
 
         {/* Overlay */}
-        <div className="absolute top-0 left-0 w-full h-full bg-teal-900/85 backdrop-blur-sm z-10" />
+        <div className="absolute top-0 left-0 w-full h-full bg-teal-900/85 backdrop-blur-xs z-10" />
 
         {/* Foreground content */}
         <div className="relative z-20 container mx-auto flex min-h-[80dvh] items-center px-4 py-10">

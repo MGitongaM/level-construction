@@ -9,7 +9,9 @@ export default function VideoView({
   height,
   width,
   classNames,
-  autoPlay,
+  autoplay,
+  muted,
+  playsinline,
 }: VideoProps) {
   return (
     <>
@@ -18,7 +20,9 @@ export default function VideoView({
         height={height}
         width={width}
         className={classNames}
-        autoPlay={autoPlay}
+        autoplay={autoplay}
+        muted={muted}
+        playsinline={playsinline}
         loop
       />
     </>
