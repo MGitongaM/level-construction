@@ -12,6 +12,8 @@ export default function VideoView({
   autoplay,
   muted,
   playsinline,
+  loop,
+  controls,
 }: VideoProps) {
   return (
     <>
@@ -23,7 +25,8 @@ export default function VideoView({
         autoplay={autoplay}
         muted={muted}
         playsinline={playsinline}
-        loop
+        loop={loop}
+        controls={controls}
       />
     </>
   );

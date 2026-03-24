@@ -40,6 +40,8 @@ export default function HeroSection() {
             height={1080}
             autoplay="always"
             muted={true}
+            loop={true}
+            controls={false}
             playsinline={true}
             classNames="w-full h-full object-cover bg-left"
           />

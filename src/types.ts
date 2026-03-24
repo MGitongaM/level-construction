@@ -11,6 +11,8 @@ export interface VideoProps {
   width: number;
   autoplay:string;
   muted:boolean;
+  loop:boolean;
+  controls:boolean;
   playsinline:boolean;
   classNames: string;
 }
