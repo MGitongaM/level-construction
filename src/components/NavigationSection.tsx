@@ -68,11 +68,11 @@ export default function NavigationSection() {
           <div className=" flex gap-x-2 justify-end w-full">
             {navigationLinks.map((nav) => (
               <NavigationMenuItem key={nav.id}>
+                  <NavigationMenuLink className={navigationMenuTriggerStyle()} asChild>
                 <Link href={nav.hrefLink}>
-                  <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                     {nav.title}
-                  </NavigationMenuLink>
                 </Link>
+                  </NavigationMenuLink>
               </NavigationMenuItem>
             ))}
           </div>
