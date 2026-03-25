@@ -1,3 +1,4 @@
+import OurProcessSection from "@/components/HomePage/OurProcessSection";
 import CTASection from "../components/HomePage/CTASection";
 import DiscoverSection from "../components/HomePage/DiscoverSection";
 import ExcellenceSection from "../components/HomePage/ExcellenceSection";
@@ -12,6 +13,7 @@ export default function page() {
         <ProcessSection />
         <ExcellenceSection />
         <DiscoverSection/>
+        <OurProcessSection/>
         <CTASection/>
       </main>
     </>

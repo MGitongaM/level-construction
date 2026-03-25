@@ -6,7 +6,7 @@ export default function CommitmentSection() {
       <div className="container mx-auto px-4 py-10">
         <div className="flex flex-wrap md:flex-nowrap justify-evenly items-center gap-8">
           <div className="w-full md:w-5/12 space-y-6">
-            <h2 className="text-2xl md:text-3xl  font-bold">
+            <h2 className="text-3xl  font-bold">
               Building a Stronger Future: Our Commitment to Quality in
               Construction
             </h2>

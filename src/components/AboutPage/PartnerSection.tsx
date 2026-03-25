@@ -1,13 +1,24 @@
 import ImageView from "../NextCloudinary/ImageView";
 
 export default function PartnerSection() {
+  const brands = [
+    { id: 1, name: "petrocity", src: "petrocity_i9m7aq" },
+    { id: 2, name: "avic international", src: "avic_madrmu" },
+    { id: 3, name: "chemi-chemi", src: "chemi_zqbsib" },
+    { id: 4, name: "astrol", src: "astrol_raboje" },
+    { id: 5, name: "proto", src: "proto_qpfr3h" },
+    { id: 6, name: "gasfil", src: "gasfil_h3fupp" },
+    { id: 7, name: "lexo", src: "lexo_slkmac" },
+    { id: 8, name: "amani", src: "amani_r5jfgk" },
+    { id: 9, name: "mengas", src: "mengas_b3qhg2" },
+  ];
   return (
     <section className="h-full">
       <div className="container mx-auto px-4 py-10 space-y-6">
-        <h2 className="text-2xl font-bold text-center">
+        <h2 className="text-3xl font-bold text-center">
           Your Trusted Partner in Construction Services
         </h2>
-        {/* <div className="h-96 w-full bg-teal-100 rounded-md"></div> */}
+
         <ImageView
           imageSrc="Trusted_Partner_vhauhq"
           height={800}
@@ -15,7 +26,7 @@ export default function PartnerSection() {
           alt={`Level service construction trusted partner image`}
           classNames="object-cover bg-teal-200 h-96 w-full bg-teal-300 rounded-md"
         />
-        <div className="max-w-3xl mx-auto space-y-6">
+        <div className="max-w-5xl mx-auto space-y-6">
           <p className="text-balance leading-8 text-center">
             At Level Services Construction, your satisfaction is our top
             priority. From residential developments to large-scale commercial
@@ -41,6 +52,21 @@ export default function PartnerSection() {
               </p>
             </div>
           </div>
+        </div>
+        <h2 className="text-3xl font-bold text-center mt-20 mb-10">
+          Brands that Trusts Us
+        </h2>
+        <div className="grid grid-cols-2 md:grid-cols-5 gap-x-8 gap-y-2">
+          {brands.map((brand) => (
+            <ImageView
+              key={brand.id}
+              imageSrc={brand.src}
+              height={800}
+              width={800}
+              alt={`${brand.name} logo`}
+              classNames="object-cover bg-center border rounded-md"
+            />
+          ))}
         </div>
       </div>
     </section>

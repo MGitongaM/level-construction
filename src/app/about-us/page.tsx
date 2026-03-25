@@ -2,6 +2,7 @@ import CommitmentSection from "@/components/AboutPage/CommitmentSection";
 import FAQsSection from "@/components/AboutPage/FAQsSection";
 import HeroSection from "@/components/AboutPage/HeroSection";
 import PartnerSection from "@/components/AboutPage/PartnerSection";
+import Team from "@/components/AboutPage/Team";
 import { Metadata } from "next";
 import { getCldOgImageUrl } from "next-cloudinary";
 
@@ -29,6 +30,7 @@ export default function page() {
       <main>
         <HeroSection />
         <CommitmentSection />
+        <Team/>
         <PartnerSection />
         <FAQsSection />
       </main>

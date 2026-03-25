@@ -28,7 +28,7 @@ export const faqsEntries = [
   {
     id: 5,
     title: "How can I contact you?",
-    content: `You can react us through our contact form on the website or calling our office directly.We are here to 
+    content: `You can react us through our contact form on the website or calling our office directly. We are here to 
     assist you with any inquiries. Our team is ready to help you with your construction needs`,
   },
 ];

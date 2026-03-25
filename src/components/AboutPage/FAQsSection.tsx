@@ -6,8 +6,8 @@ export default function FAQsSection() {
   return (
     <section className="h-full" id="faqs">
         <div className="container mx-auto px-4 py-40 space-y-6">
-            <div className="flex flex-wrap md:flex-nowrap justify-evenly items-center gap-8">
-                <div className="w-full md:w-6/12 text-center space-y-4">
+            <div className="flex flex-wrap md:flex-nowrap justify-evenly items-start gap-8">
+                <div className="w-full md:w-6/12 text space-y-4">
                     <h3 className="text-3xl font-semibold">Frequent Asked Questons</h3>
                     <p className="leading-8">Find answers to common questions about our construction services</p>
 

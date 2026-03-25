@@ -7,7 +7,7 @@ export default function DiscoverSection() {
       <div className="container mx-auto  px-4 py-20">
         <div className="flex flex-wrap md:flex-nowrap justify-evenly items-center gap-8">
           <div className="w-full md:w-6/12 lg:w-4/12 space-y-12">
-            <h2 className="text-3xl">
+            <h2 className="text-3xl font-medium">
               Discover the Unmatched Benefits of Partnering with Level Services
               Construction
             </h2>
