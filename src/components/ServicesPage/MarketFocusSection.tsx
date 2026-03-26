@@ -40,7 +40,7 @@ export const MarketFocusSection = () => {
   ];
   return (
     <>
-      <section className="container mx-auto px-4 py-10 bg-teal-50 rounded-md">
+      <section className="container mx-auto px-4 py-10 bg-teal-50 rounded-md" id="focusIndusties">
         <h2 className="text-3xl font-bold text-center">Industries We Serve</h2>
         <p className="text-center max-w-3xl mx-auto py-8">
           We take pride in building the infrastructure that powers our
