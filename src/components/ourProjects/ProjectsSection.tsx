@@ -272,7 +272,7 @@ export default function ProjectsSection() {
               key={project.id}
               className="flex flex-wrap md:flex-nowrap gap-y-8 my-20 border rounded-md"
             >
-              <div className="w-full md:w-5/12  h-[55dvh]  rounded-md ">
+              <div className="w-full md:w-5/12  h-[70dvh] 2xl:h-[55dvh]  rounded-md ">
                 <ProjectImageCarousel images={project.images} />
               </div>
 
