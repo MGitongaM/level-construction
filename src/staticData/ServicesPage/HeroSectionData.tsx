@@ -15,7 +15,7 @@ export const heroEntries = [
     title: " Expert Construction for Seamless Execution",
     description:
       // "We provide top notch construction services that adhere to industry standards",
-      "Our construction services are designed to meet the highest industry standards. We specialize in executing complex projects with precision, from start to finish—ensuring quality and compliance every step of the way",
+      "Our construction services are designed to meet the highest industry standards. We specialize in executing complex projects with precision, from start to finish, ensuring quality and compliance every step of the way",
     // icon: (
     //   <HousePlug className="text-teal-300 size-8 bg-teal-50 rounded-md p-1" />
     // ),

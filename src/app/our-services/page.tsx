@@ -1,6 +1,7 @@
-import ClientFeedbackSection from "@/components/ServicesPage/ClientFeedbackSection";
+// import ClientFeedbackSection from "@/components/ServicesPage/ClientFeedbackSection";
 import CTASection from "@/components/ServicesPage/CTASection";
 import HeroSection from "@/components/ServicesPage/HeroSection";
+import { MarketFocusSection } from "@/components/ServicesPage/MarketFocusSection";
 import ServicesOutlineSection from "@/components/ServicesPage/ServicesOutlineSection";
 import { Metadata } from "next";
 import { getCldOgImageUrl } from "next-cloudinary";
@@ -28,7 +29,8 @@ export default function page() {
       <main>
         <HeroSection />
         <ServicesOutlineSection/>
-        <ClientFeedbackSection/>
+        {/* <ClientFeedbackSection/> */}
+        <MarketFocusSection/>
         <CTASection/>
       </main>
     </>

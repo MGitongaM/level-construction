@@ -18,14 +18,15 @@ export default function HeroSection() {
                 <Mail className="text-teal-400 size-6 ml-0 md:-ml-10" />
                 <p className="text">Email</p>
               </div>
-              <p className="c">construction@levelservices.co.ke</p>
+              <p className="c">info@levelservices.biz</p>
             </div>
             <div className="c">
               <div className="flex items-center gap-2">
                 <Phone className="text-teal-400 size-6 ml-0 md:-ml-10" />
                 <p className="text">Phone</p>
               </div>
-              <p className="c">020 009 899 7667</p>
+              <p className="c">+254 72 809 5505</p>
+              <p className="c">+254 72 924 2134</p>
             </div>
             <div className="c">
               <div className="flex items-center gap-2">

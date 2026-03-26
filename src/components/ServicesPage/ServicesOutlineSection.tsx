@@ -8,16 +8,24 @@ export default function ServicesOutlineSection() {
         <div className="flex flex-wrap md:flex-wrap justify-evenly itmes-center gap-8">
           <div className="w-full md:w-6/12 lg:w-5/12 space-y-6">
             <h3 className="text-3xl font-semibold">
-              {/* Comprehensive Solutions for the Construction Industry */}
-              Engineering Excellence for the Construction Industry
+              {/* Engineering Excellence for the Construction Industry */}
+              Engineering Design & Construction Services
             </h3>
             <p className="leading-8">
               {/* At Level Services Construction, we deliver a full spectrum of specialized construction solutions, expertly crafted to address the unique challenges and evolving needs of our clients across Kenya and beyond. Our commitment to precision, efficiency, and innovation ensures every project is completed to the highest standards-on time and within budget */}
-              We craft innovative engineering designs that address the evolving
+              {/* We craft innovative engineering designs that address the evolving
               needs of the petroleum and general construction sectors. By
               leveraging cutting-edge tools and a client-focused approach, we
               guarantee solutions that align with your vision and industry
-              demands
+              demands */}
+              We undertake detailed engineering, procurement and construction
+              in accordance with applicable international and local standards.
+              The scope includes site layouts, storage tank sizing and
+              positioning, piping and instrumentation diagrams (P&IDs), pressure
+              piping designs, fire protection systems, gas detection systems,
+              and hazardous area classification. Designs are optimized for
+              safety, operational efficiency, maintainability, and regulatory
+              compliance
             </p>
             <div className="flex justify-between items-start gap-4">
               <div className="w-full md:w-6/12 space-y-2">
@@ -31,7 +39,8 @@ export default function ServicesOutlineSection() {
               </div>
               <div className="w-full md:w-6/12 space-y-2">
                 <p className="text-base md:text-xl font-semibold">
-                  End-to-End Project Management
+                  {/* End-to-End Project Management */}
+                  Concept to Completion
                 </p>
                 <p className="leading-8">
                   Strategic oversight that ensures compliance with industry
@@ -41,7 +50,6 @@ export default function ServicesOutlineSection() {
             </div>
           </div>
           <div className="w-full md:w-5/12">
-            {/* <div className="h-96 bg-teal-600 rounded-md"></div> */}
             <ImageView
               imageSrc="Engineering_Solutions_naorod"
               height={800}
@@ -52,9 +60,9 @@ export default function ServicesOutlineSection() {
           </div>
         </div>
         {/* second outline  */}
-        <div className="flex flex-wrap md:flex-wrap justify-evenly itmes-center gap-8">
+        {/* <div className="flex flex-wrap md:flex-wrap justify-evenly itmes-center gap-8">
           <div className="w-full md:w-5/12">
-            {/* <div className="h-96 bg-teal-600 rounded-md"></div> */}
+            
             <ImageView
               imageSrc="Comprehensive_Construction_Solutions_dqclm5"
               height={800}
@@ -73,7 +81,7 @@ export default function ServicesOutlineSection() {
               to meet the rigorous safety and quality requirements of this vital
               industry, ensuring operational integrity from the ground up
             </p>
-            {/* <div className="flex justify-between items-center gap-4">
+            <div className="flex justify-between items-center gap-4">
               <div className="w-5/12">
                 <p className="text-xl font-semibold">Innovative desion</p>
                 <p className="leading-8">
@@ -88,20 +96,37 @@ export default function ServicesOutlineSection() {
                   industr standards
                 </p>
               </div>
-            </div> */}
+            </div>
           </div>
-        </div>
+        </div> */}
         {/* third outline  */}
         <div className="flex flex-wrap md:flex-wrap justify-evenly itmes-center gap-8">
+           <div className="w-full md:w-5/12">
+            <ImageView
+              imageSrc="Expert_Project_Management_jxpehn"
+              height={800}
+              width={800}
+              alt={`Level service construction project management services image`}
+              classNames="object-cover bg-teal-400 h-full w-full bg-teal-300 rounded-md"
+            />
+          </div>
           <div className="w-full md:w-6/12 lg:w-5/12 space-y-6">
             <h3 className="text-3xl font-semibold">
-              Your Partner in Project Management Excellence
+              {/* Your Partner in Project Management Excellence */}
+              Project Management Services
             </h3>
             <p className="leading-8">
-              We understand that successful projects are built on strong
+              {/* We understand that successful projects are built on strong
               foundations and even stronger management. That&apos;s why we offer
               expert project management services that oversee every detail with
-              precision, from concept to completion
+              precision, from concept to completion */}
+              We offer professional project management services for
+infrastructure projects, overseeing all phases from planning,
+procurement to construction, commissioning, and handover.
+Project management services include scope definition,
+scheduling, cost control, contractor coordination, quality
+assurance, risk management, and progress reporting, ensuring
+projects are delivered safely, on time, and within budget.
             </p>
             <div className="flex justify-between items-start gap-4">
               <div className="w-6/12 space-y-2">
@@ -117,21 +142,13 @@ export default function ServicesOutlineSection() {
                   Risk & Budget Control
                 </p>
                 <p className="leading-8">
-                  Minimizing delays and cost overruns through proactive management
+                  Minimizing delays and cost overruns through proactive
+                  management
                 </p>
               </div>
             </div>
           </div>
-          <div className="w-full md:w-5/12">
-            {/* <div className="h-96 bg-teal-600 rounded-md"></div> */}
-            <ImageView
-              imageSrc="Expert_Project_Management_jxpehn"
-              height={800}
-              width={800}
-              alt={`Level service construction project management services image`}
-              classNames="object-cover bg-teal-400 h-full w-full bg-teal-300 rounded-md"
-            />
-          </div>
+         
         </div>
       </div>
     </section>

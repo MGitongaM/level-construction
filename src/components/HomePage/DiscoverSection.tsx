@@ -28,7 +28,7 @@ export default function DiscoverSection() {
               </li>
               <li className="flex items-center gap-2">
                 <CheckCircle className="text-teal-300 size-5" />
-                Unmatched expertise in Kenya&apos;s construction and engineering sectors
+                Expertise in Kenya&apos;s construction and engineering sectors
               </li>
             </ul>
           </div>

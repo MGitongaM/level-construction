@@ -16,7 +16,7 @@ export default function ProjectImageCarousel({ images }: { images: string[] }) {
                 height={900}
                 width={800}
                 alt="project image"
-                classNames="object-cover bg-center md:rounded-l-md w-full h-full"
+                classNames="object-cover bg-center md:rounded-l-md w-full h-[55dvh]"
               />
             </CarouselItem>
           ))}

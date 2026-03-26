@@ -12,6 +12,11 @@ export default function Team() {
             lastName:"Wachira",
             image:"",
             postition:"Strategic Director",
+            profileDescription:`John Wachira is a Mechanical Engineer and energy lead specialist with over 10 years of technical and
+leadership experience in engineering and infrastructure projects. He focuses on transforming engineering
+work into scalable sustainable ventures. He also provides overall leadership, strategic direction, and
+technical oversight for the company. John currently serves as a strategic director at Level Service Ltd
+where he drives strategy, team development and execution culture to scale operations`,
             expertise:["Project planning",
                 "Contractor management",
                 "Project leadership",
@@ -33,6 +38,11 @@ export default function Team() {
             lastName:"Mwangi",
             image:"",
             postition:"Operations Director",
+            profileDescription:`Michael Mwangi is an experienced Civil Engineer with 10+ years in full cycle construction project planning
+and design of multi million KES projects across the LPG/energy, petroleum and edible oils,
+telecommunications, power and infrastructure sectors.
+Currently, Michael serves as Operations Director at Level service Ltd, leading to end-to-end delivery of LPG
+infrastructure projects`,
              expertise:["Project management",
                 "Civil design",
                 "Regulatory compliance EPRA/NEMA/County",
@@ -54,6 +64,10 @@ export default function Team() {
             lastName:"Maroa",
             image:"",
             postition:"Lead Mechanical Engineer",
+            profileDescription:`Evans Maroa is an experienced mechanical engineer with over 5 years with experience with
+engineering designs, project planning, outlining and meeting functional environmental projects in
+oil and gas energy projects with a key focus on LPG bulk storage development, fuel conversions
+system and auto gas station`,
              expertise:["Mechanical design",
                 "CAD modelling",
                 "Site supervision",
@@ -72,6 +86,9 @@ export default function Team() {
             lastName:"Nyakundi",
             image:"",
             postition:"Lead Civil Engineer",
+            profileDescription:`Henry Nyakundi is a Civil Engineer with over 8 years of experience in project management and
+infrastructure development. His background covers oil and gas projects, water and sanitation
+systems, road construction, and irrigation works.`,
             expertise:["Engineering design",
                 "Storm water management",
                 "Sanitation systems",
@@ -97,7 +114,8 @@ export default function Team() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 my-10">
             {
                 
-                teamMembers.map((member)=>(<Card key={member.id} className=" border bg-teal-50/20  hover:scale-105 transition duration-700">
+                // teamMembers.map((member)=>(<Card key={member.id} className=" border bg-teal-50/20  hover:scale-105 transition duration-700">
+                teamMembers.map((member)=>(<Card key={member.id} className=" border bg-teal-50/20  hover:scale-100 transition duration-700">
                     <CardHeader className="flex flex-row gap-8">
                         <Avatar size="lg" className="">
                             <AvatarImage src={member.image}/>
@@ -110,6 +128,12 @@ export default function Team() {
                         </div>
                     </CardHeader>
                     <CardContent className="">
+                        <Accordion type="single" collapsible >
+                               <AccordionItem  value="Profile">
+                                    <AccordionTrigger className="font-semibold hover:no-underline">Profile:</AccordionTrigger>
+                                        <AccordionContent className="ml-10">{member.profileDescription}</AccordionContent>
+                                </AccordionItem>
+                        </Accordion>
                         <Accordion type="single" collapsible >
                                 <AccordionItem  value="Areas of Expertise">
                                     <AccordionTrigger className="font-semibold hover:no-underline">Areas of Expertise:</AccordionTrigger>

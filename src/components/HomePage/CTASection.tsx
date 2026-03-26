@@ -10,7 +10,8 @@ export default function CTASection() {
             <div className="w-full md:w-5/12 lg:w-4/12">
               <div className="max-w-lg mx-auto">
                 <p className="text-3xl lg:text-5xl">
-                  Get Your Free Consultation Today
+                  {/* Get Your Free Consultation Today */}
+                  Get Our Expertise Consultation Today
                 </p>
               </div>
             </div>
