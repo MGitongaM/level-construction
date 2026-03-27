@@ -53,13 +53,11 @@ export default function NavigationSection() {
   return (
     <>
       <NavigationMenu className="hidden md:block">
-        
         <NavigationMenuList className="w-[99vw] bg-white flex  justify-between items-center px-1 lg:px-16 ">
           <div className="w-full p-2">
             <NavigationMenuItem>
               <Link href={`/`} className="flex items-center">
                 <ImageView
-                  
                   imageSrc="levels_services_transparent_logo_only_zquhit"
                   height={400}
                   width={400}
@@ -73,11 +71,12 @@ export default function NavigationSection() {
           <div className=" flex gap-x-2 justify-end w-full">
             {navigationLinks.map((nav) => (
               <NavigationMenuItem key={nav.id}>
-                  <NavigationMenuLink className={navigationMenuTriggerStyle()} asChild>
-                <Link href={nav.hrefLink} className="font-semibold">
-                    {nav.title}
-                </Link>
-                  </NavigationMenuLink>
+                <NavigationMenuLink
+                  className={navigationMenuTriggerStyle()}
+                  asChild
+                >
+                  <Link href={nav.hrefLink}>{nav.title}</Link>
+                </NavigationMenuLink>
               </NavigationMenuItem>
             ))}
           </div>
@@ -116,13 +115,12 @@ export default function NavigationSection() {
                   <div className=" flex flex-col gap-x-2 justify-end items-end list-none text-left pr-10 w-full">
                     {navigationLinks.map((nav) => (
                       <NavigationMenuItem key={nav.id}>
-                        <Link href={nav.hrefLink}>
-                          <NavigationMenuLink
-                            className={navigationMenuTriggerStyle()}
-                          >
-                            {nav.title}
-                          </NavigationMenuLink>
-                        </Link>
+                        <NavigationMenuLink
+                          className={navigationMenuTriggerStyle()}
+                          asChild
+                        >
+                          <Link href={nav.hrefLink}>{nav.title}</Link>
+                        </NavigationMenuLink>
                       </NavigationMenuItem>
                     ))}
                   </div>
