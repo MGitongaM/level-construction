@@ -52,10 +52,11 @@ export default function NavigationSection() {
   ];
   return (
     <>
-      <NavigationMenu className="hidden md:block">
-        <NavigationMenuList className="w-[99vw] bg-white flex  justify-between items-center px-1 lg:px-16 ">
+      <NavigationMenu className="hidden lg:block">
+        {/* <NavigationMenuList className="w-[99vw] bg-white flex  justify-between items-center px-1 lg:px-16 "> */}
+        <NavigationMenuList className="w-full md:w-screen 7xl:max-w-7xl ml-auto  bg-white flex justify-between items-center px-4 lg:px-16 ">
           {/* <div className="w-full p-2"> */}
-          <div className="flex-1 p-2">
+          <div className="flex-1 p-2 ">
             <NavigationMenuItem>
               <Link href={`/`} className="flex items-center">
                 <ImageView
@@ -85,7 +86,7 @@ export default function NavigationSection() {
         </NavigationMenuList>
       </NavigationMenu>
       {/* mobile menu */}
-      <NavigationMenu className="block md:hidden">
+      <NavigationMenu className="block lg:hidden">
         <NavigationMenuList>
           <div className="w-[99vw] flex justify-between items-center px-1">
             <div className="c">
