@@ -75,7 +75,7 @@ export default function NavigationSection() {
             {navLinks.map((nav) => (
               <NavigationMenuItem key={nav.id}>
                 <NavigationMenuLink
-                  className={navigationMenuTriggerStyle()}
+                  className={`navigationMenuTriggerStyle() whitespace-nowrap font-bold hover:bg-teal-100`}
                   asChild
                 >
                   <Link href={nav.hrefLink}>{nav.title}</Link>
