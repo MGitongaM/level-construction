@@ -3,8 +3,8 @@ export default function HeroSection() {
     <section className="min-h-[80dvh] bg-teal-100 w-full bg-[url('https://res.cloudinary.com/dh8qlzbzk/image/upload/v1746776458/homeHeroImg_y1ghvh.jpg')] bg-cover bg-center bg-no-repeat bg">
       <div className="min-h-[80dvh] bg-teal-900/85 backdrop-blur-sm relative">
         <div className="min-h-[80dvh] grid place-content-center container text-slate-100 mx-auto px-4 py-10 space-y-6">
-          <div className="max-w-2xl mx-auto text-center">
-            <h1 className="text-4xl md:text-5xl font-bold">
+          <div className="max-w-4xl mx-auto text-center">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold">
               Building Future Solutions, <br /> One Project at a Time
             </h1>
           </div>

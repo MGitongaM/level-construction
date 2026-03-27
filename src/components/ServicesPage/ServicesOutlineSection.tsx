@@ -9,7 +9,7 @@ export default function ServicesOutlineSection() {
               What We Do
             </h2>
         {/* first outline  */}
-        <div className="flex flex-wrap md:flex-wrap justify-evenly itmes-center gap-8 -mt-20">
+        <div className="flex flex-wrap-reverse md:flex-wrap justify-evenly itmes-center gap-8 -mt-20">
           <div className="w-full md:w-6/12 lg:w-5/12 space-y-6">
             <h3 className="text-3xl font-semibold">
               {/* Engineering Excellence for the Construction Industry */}
@@ -152,6 +152,9 @@ export default function ServicesOutlineSection() {
             </div>
           </div>
         </div>
+         <h3 className="text-xl font-semibold">
+              The Value We Deliver
+            </h3>
         <div className="flex flex-wrap md:flex-nowrap justify-evenly items-start gap-10 lg:gap-20 pt-20 lg:px-20">
           {heroEntries.map((entry) => (
             <div key={entry.id} className="flex flex-col gap-4">

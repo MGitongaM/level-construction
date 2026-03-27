@@ -7,6 +7,9 @@ export default function AllProcuctsSection() {
   return (
     <section className="min-h-screen">
       <div className="container mx-auto px-4 py-20">
+        <h1 className="text-4xl md:text-5xl font-bold text-center mb-10">
+          Our Equipment Offering
+        </h1>
         <div className="flex flex-wrap justify-evenly items-start gap-x-2 gap-y-20">
           {products.map((product) => (
             <Link
