@@ -1,11 +1,15 @@
+import { heroEntries } from "@/staticData/ServicesPage/HeroSectionData";
 import ImageView from "../NextCloudinary/ImageView";
 
 export default function ServicesOutlineSection() {
   return (
     <section className="h-full">
       <div className="container mx-auto px-4 py-20 space-y-40">
+        <h2 className="text-3xl font-bold text-center  ">
+              What We Do
+            </h2>
         {/* first outline  */}
-        <div className="flex flex-wrap md:flex-wrap justify-evenly itmes-center gap-8">
+        <div className="flex flex-wrap md:flex-wrap justify-evenly itmes-center gap-8 -mt-20">
           <div className="w-full md:w-6/12 lg:w-5/12 space-y-6">
             <h3 className="text-3xl font-semibold">
               {/* Engineering Excellence for the Construction Industry */}
@@ -18,14 +22,13 @@ export default function ServicesOutlineSection() {
               leveraging cutting-edge tools and a client-focused approach, we
               guarantee solutions that align with your vision and industry
               demands */}
-              We undertake detailed engineering, procurement and construction
-              in accordance with applicable international and local standards.
-              The scope includes site layouts, storage tank sizing and
-              positioning, piping and instrumentation diagrams (P&IDs), pressure
-              piping designs, fire protection systems, gas detection systems,
-              and hazardous area classification. Designs are optimized for
-              safety, operational efficiency, maintainability, and regulatory
-              compliance
+              We undertake detailed engineering, procurement and construction in
+              accordance with applicable international and local standards. The
+              scope includes site layouts, storage tank sizing and positioning,
+              piping and instrumentation diagrams (P&IDs), pressure piping
+              designs, fire protection systems, gas detection systems, and
+              hazardous area classification. Designs are optimized for safety,
+              operational efficiency, maintainability, and regulatory compliance
             </p>
             <div className="flex justify-between items-start gap-4">
               <div className="w-full md:w-6/12 space-y-2">
@@ -101,7 +104,7 @@ export default function ServicesOutlineSection() {
         </div> */}
         {/* third outline  */}
         <div className="flex flex-wrap md:flex-wrap justify-evenly itmes-center gap-8">
-           <div className="w-full md:w-5/12">
+          <div className="w-full md:w-5/12">
             <ImageView
               imageSrc="Expert_Project_Management_jxpehn"
               height={800}
@@ -121,12 +124,12 @@ export default function ServicesOutlineSection() {
               expert project management services that oversee every detail with
               precision, from concept to completion */}
               We offer professional project management services for
-infrastructure projects, overseeing all phases from planning,
-procurement to construction, commissioning, and handover.
-Project management services include scope definition,
-scheduling, cost control, contractor coordination, quality
-assurance, risk management, and progress reporting, ensuring
-projects are delivered safely, on time, and within budget.
+              infrastructure projects, overseeing all phases from planning,
+              procurement to construction, commissioning, and handover. Project
+              management services include scope definition, scheduling, cost
+              control, contractor coordination, quality assurance, risk
+              management, and progress reporting, ensuring projects are
+              delivered safely, on time, and within budget.
             </p>
             <div className="flex justify-between items-start gap-4">
               <div className="w-6/12 space-y-2">
@@ -148,7 +151,15 @@ projects are delivered safely, on time, and within budget.
               </div>
             </div>
           </div>
-         
+        </div>
+        <div className="flex flex-wrap md:flex-nowrap justify-evenly items-start gap-10 lg:gap-20 pt-20 lg:px-20">
+          {heroEntries.map((entry) => (
+            <div key={entry.id} className="flex flex-col gap-4">
+              <span className="bg-teal-50 p-1 rounded-md w-10 text-center">{entry.icon}</span>
+              <p className="text-xl font-bold">{entry.title}</p>
+              <p className="leading-8">{entry.description}</p>
+            </div>
+          ))}
         </div>
       </div>
     </section>
