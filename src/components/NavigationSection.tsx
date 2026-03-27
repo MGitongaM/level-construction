@@ -18,7 +18,7 @@ import { MenuSquare } from "lucide-react";
 import ImageView from "./NextCloudinary/ImageView";
 
 export default function NavigationSection() {
-  const navigationLinks = [
+  const navLinks = [
     {
       id: 1,
       title: "Home",
@@ -71,7 +71,7 @@ export default function NavigationSection() {
           </div>
           {/* <div className=" flex gap-x-2 justify-end w-full"> */}
           <div className=" flex gap-x-2 justify-end shrink-0">
-            {navigationLinks.map((nav) => (
+            {navLinks.map((nav) => (
               <NavigationMenuItem key={nav.id}>
                 <NavigationMenuLink
                   className={navigationMenuTriggerStyle()}
@@ -115,7 +115,7 @@ export default function NavigationSection() {
                     <SheetDescription></SheetDescription>
                   </SheetHeader>
                   <div className=" flex flex-col gap-x-2 justify-end items-end list-none text-left pr-10 w-full">
-                    {navigationLinks.map((nav) => (
+                    {navLinks.map((nav) => (
                       <NavigationMenuItem key={nav.id}>
                         <NavigationMenuLink
                           className={navigationMenuTriggerStyle()}
