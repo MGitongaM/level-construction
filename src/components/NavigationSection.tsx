@@ -54,7 +54,8 @@ export default function NavigationSection() {
     <>
       <NavigationMenu className="hidden md:block">
         <NavigationMenuList className="w-[99vw] bg-white flex  justify-between items-center px-1 lg:px-16 ">
-          <div className="w-full p-2">
+          {/* <div className="w-full p-2"> */}
+          <div className="flex-1 p-2">
             <NavigationMenuItem>
               <Link href={`/`} className="flex items-center">
                 <ImageView
@@ -68,7 +69,8 @@ export default function NavigationSection() {
               </Link>
             </NavigationMenuItem>
           </div>
-          <div className=" flex gap-x-2 justify-end w-full">
+          {/* <div className=" flex gap-x-2 justify-end w-full"> */}
+          <div className=" flex gap-x-2 justify-end shrink-0">
             {navigationLinks.map((nav) => (
               <NavigationMenuItem key={nav.id}>
                 <NavigationMenuLink

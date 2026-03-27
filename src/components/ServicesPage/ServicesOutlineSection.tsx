@@ -152,7 +152,7 @@ export default function ServicesOutlineSection() {
             </div>
           </div>
         </div>
-         <h3 className="text-3xl font-semibold ">
+         <h3 className="text-3xl font-semibold md:ml-20">
               The Value We Deliver
             </h3>
         <div className="flex flex-wrap md:flex-nowrap justify-evenly items-start gap-10 lg:gap-20 -mt-48 md:-mt0 pt-20 lg:px-20">
