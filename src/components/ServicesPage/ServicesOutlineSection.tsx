@@ -152,10 +152,10 @@ export default function ServicesOutlineSection() {
             </div>
           </div>
         </div>
-         <h3 className="text-xl font-semibold">
+         <h3 className="text-3xl font-semibold ">
               The Value We Deliver
             </h3>
-        <div className="flex flex-wrap md:flex-nowrap justify-evenly items-start gap-10 lg:gap-20 pt-20 lg:px-20">
+        <div className="flex flex-wrap md:flex-nowrap justify-evenly items-start gap-10 lg:gap-20 -mt-48 md:-mt0 pt-20 lg:px-20">
           {heroEntries.map((entry) => (
             <div key={entry.id} className="flex flex-col gap-4">
               <span className="bg-teal-50 p-1 rounded-md w-10 text-center">{entry.icon}</span>

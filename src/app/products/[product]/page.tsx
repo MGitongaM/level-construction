@@ -31,9 +31,9 @@ export default async function page({
               />
             </div>
             <div className="w-full md:w-5/12">
-              <p className="text-lg pl-4 font-semibold">About:</p>
-              <p className="leading-7 px-4">{Item.details}</p>
-              <p className="text-lg pl-4 font-semibold mt-10">Overview:</p>
+              <p className="text-sm pl-4 font-semibold">About:</p>
+              <p className="leading-7 ml-6 px-4">{Item.details}</p>
+              <p className="text-sm pl-4 font-semibold mt-10 -mb-5">Overview:</p>
               <div
                 // className="py-8 px-4 prose prose-ul prose-li leading-7"
                 className="py-8 px-4 prose prose-ul:list-disc prose-li:list-item leading-7 "
