@@ -35,17 +35,17 @@ export default function NavigationSection() {
       hrefLink: "/our-services",
     },
     {
-      id: 5,
+      id: 4,
       title: "Projects",
       hrefLink: "/our-projects",
     },
     {
-      id: 6,
+      id: 5,
       title: "Products",
       hrefLink: "/products",
     },
     {
-      id: 7,
+      id: 6,
       title: "Contact Us",
       hrefLink: "/contact-us",
     },
