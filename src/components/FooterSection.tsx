@@ -51,6 +51,9 @@ export default function FooterSection() {
                   <Link href={`/about-us/#faqs`}>FAQS</Link>
                 </li>
                 <li className="hover:underline underline-offset-2">
+                  <Link href={`/our-projects`}>Our Projects</Link>
+                </li>
+                <li className="hover:underline underline-offset-2">
                   <Link href={`/contact-us`}>Contact Us</Link>
                 </li>
                 {/* <li className="hover:underline underline-offset-2">

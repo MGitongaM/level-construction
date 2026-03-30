@@ -15,4 +15,10 @@ export interface VideoProps {
   controls:boolean;
   playsinline:boolean;
   classNames: string;
+  transformations: {
+    crop: string;
+    aspect: string;
+    width: number;
+    height: number;
+  }
 }

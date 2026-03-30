@@ -1,0 +1,17 @@
+import ImageView from "@/components/NextCloudinary/ImageView";
+
+export default function NotFound() {
+  return (
+    <section className="container mx-auto px-4 py-20">
+      <div className="flex flex-col items-center h-[60dvh]">
+        <ImageView
+          imageSrc="404_lzsywn"
+          height={800}
+          width={800}
+          alt={`Not found image`}
+          classNames="object-contain mx-auto max-h-[60dvh]"
+        />
+      </div>
+    </section>
+  );
+}

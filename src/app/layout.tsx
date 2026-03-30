@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 const url =getCldOgImageUrl({
-  src:"home_ndnwyh",
+  src:"home_ccd0jy",
 })
 
 export const metadata: Metadata = {

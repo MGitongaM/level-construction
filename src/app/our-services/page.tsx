@@ -7,7 +7,7 @@ import { Metadata } from "next";
 import { getCldOgImageUrl } from "next-cloudinary";
 
 const url =getCldOgImageUrl({
-  src:"services_x3a8om",
+  src:"services_ql5fr9",
 })
 
 export const metadata: Metadata = {

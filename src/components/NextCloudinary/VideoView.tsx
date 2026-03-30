@@ -14,6 +14,7 @@ export default function VideoView({
   playsinline,
   loop,
   controls,
+  transformations,
 }: VideoProps) {
   return (
     <>
@@ -27,6 +28,12 @@ export default function VideoView({
         playsinline={playsinline}
         loop={loop}
         controls={controls}
+        transformation={{
+          crop: transformations.crop,
+          aspect: transformations.aspect,
+          width: transformations.width,
+          height: transformations.height
+        }}
       />
     </>
   );

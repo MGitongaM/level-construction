@@ -49,7 +49,7 @@ export const MarketFocusSection = () => {
           to meet the unique demands of every sector we touch
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 my-10">
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8 my-10">
           {focusAreas.map((area) => (
             <div key={area.id} className=" ">
               <ImageView
