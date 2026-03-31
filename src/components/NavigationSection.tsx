@@ -1,10 +1,11 @@
+"use client";
 import Link from "next/link";
 import {
   NavigationMenu,
   NavigationMenuItem,
   NavigationMenuLink,
   NavigationMenuList,
-  // navigationMenuTriggerStyle,
+  navigationMenuTriggerStyle,
 } from "./ui/navigation-menu";
 import {
   Sheet,
@@ -75,8 +76,8 @@ export default function NavigationSection() {
             {navLinks.map((nav) => (
               <NavigationMenuItem key={nav.id}>
                 <NavigationMenuLink
-                  // className={`${navigationMenuTriggerStyle()} whitespace-nowrap font-bold hover:bg-teal-100`}
-                  className={` whitespace-nowrap font-bold hover:bg-teal-100`}
+                  className={`${navigationMenuTriggerStyle()} whitespace-nowrap font-bold hover:bg-teal-100`}
+                  // className={` whitespace-nowrap font-bold hover:bg-teal-100`}
                   asChild
                 >
                   <Link href={nav.hrefLink}>{nav.title}</Link>
@@ -120,8 +121,8 @@ export default function NavigationSection() {
                     {navLinks.map((nav) => (
                       <NavigationMenuItem key={nav.id}>
                         <NavigationMenuLink
-                          // className={`${navigationMenuTriggerStyle()} whitespace-nowrap font-bold hover:bg-teal-100`}
-                          className={` whitespace-nowrap font-bold hover:bg-teal-100`}
+                          className={`${navigationMenuTriggerStyle()} whitespace-nowrap font-bold hover:bg-teal-100`}
+                          // className={` whitespace-nowrap font-bold hover:bg-teal-100`}
                           asChild
                         >
                           <Link href={nav.hrefLink}>{nav.title}</Link>

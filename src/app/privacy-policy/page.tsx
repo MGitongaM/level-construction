@@ -6,12 +6,12 @@ export default function page() {
           Privacy Policy for Level Services Construction{" "}
         </h1>
         <p className="c">
-          At Level Services Construction (“we”, “our”, or “us”), your privacy is a
-          top priority. This Privacy Policy explains how we collect, use, store,
-          and protect your personal information in compliance with the Kenyan
-          Data Protection Act, 2019, and global data privacy standards such as
-          the EU General Data Protection Regulation (GDPR) and the California
-          Consumer Privacy Act (CCPA)
+          At Level Services Construction (“we”, “our”, or “us”), your privacy is
+          a top priority. This Privacy Policy explains how we collect, use,
+          store, and protect your personal information in compliance with the
+          Kenyan Data Protection Act, 2019, and global data privacy standards
+          such as the EU General Data Protection Regulation (GDPR) and the
+          California Consumer Privacy Act (CCPA)
         </p>
 
         <div className="c">

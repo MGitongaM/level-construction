@@ -1,4 +1,4 @@
-import ImageView from "../NextCloudinary/ImageView";
+import ImageView from "@/components/NextCloudinary/ImageView";
 
 export default function CommitmentSection() {
   return (
@@ -19,7 +19,6 @@ export default function CommitmentSection() {
             </p>
           </div>
           <div className="w-full md:w-6/12">
-            {/* <div className="h-96 bg-teal-600 rounded-md"></div> */}
             <ImageView
               imageSrc="Building_a_Stronger_Future_j6dndr"
               height={800}

@@ -1,3 +1,5 @@
+import { Columns3Cog, Fingerprint, HousePlus, Landmark, ScrollText, SignatureIcon } from "lucide-react";
+
 export const ProcessEntries = [
   {
     id: 1,
@@ -18,3 +20,44 @@ export const ProcessEntries = [
     text: "Skilled professionals oversee every phase, implementing strict quality control measures to ensure flawless execution",
   },
 ];
+
+ export const ourWorkProcesses = [
+    {
+      id: 1,
+      icon: <SignatureIcon />,
+      title: "Contract Signing",
+      details:
+        "Project report, design drawings, bill of quantities, and technical specifications",
+    },
+    {
+      id: 2,
+      icon: <Fingerprint />,
+      title: "Regulatory Approvals & Procurement:",
+      details: "Securing NEMA, EPRA, and county approvals.",
+    },
+    {
+      id: 3,
+      icon: <Landmark />,
+      title: "Civil Works & Shed Erection:",
+      details: " Laying the foundation for structural reliability",
+    },
+    {
+      id: 4,
+      icon: <Columns3Cog />,
+      title: "Tanks & Equipment Installation",
+      details: " Erection,testing, and commissioning",
+    },
+    {
+      id: 5,
+      icon: <ScrollText />,
+      title: "Handover & Documentation",
+      details: "Comprehensive repoarting and compliance confirmation",
+    },
+    {
+      id: 6,
+      icon: <HousePlus />,
+      title: "Post-Construction Support",
+      details:
+        "Maintenance and performance monitoring to ensure lasting efficiency",
+    },
+  ];

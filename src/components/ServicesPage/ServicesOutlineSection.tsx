@@ -1,13 +1,11 @@
 import { heroEntries } from "@/staticData/ServicesPage/HeroSectionData";
-import ImageView from "../NextCloudinary/ImageView";
+import ImageView from "@/components/NextCloudinary/ImageView";
 
 export default function ServicesOutlineSection() {
   return (
     <section className="h-full">
       <div className="container mx-auto px-4 py-20 space-y-40">
-        <h2 className="text-3xl font-bold text-center  ">
-              What We Do
-            </h2>
+        <h2 className="text-3xl font-bold text-center  ">What We Do</h2>
         {/* first outline  */}
         <div className="flex flex-wrap-reverse md:flex-wrap justify-evenly itmes-center gap-8 -mt-20">
           <div className="w-full md:w-6/12 lg:w-5/12 space-y-6">
@@ -152,13 +150,15 @@ export default function ServicesOutlineSection() {
             </div>
           </div>
         </div>
-         <h3 className="text-3xl font-semibold md:ml-20">
-              The Value We Deliver
-            </h3>
+        <h3 className="text-3xl font-semibold md:ml-20">
+          The Value We Deliver
+        </h3>
         <div className="flex flex-wrap lg:flex-nowrap justify-evenly items-start gap-10 lg:gap-20 -mt-48 md:-mt0 pt-20 lg:px-20">
           {heroEntries.map((entry) => (
             <div key={entry.id} className="flex flex-col gap-4">
-              <span className="bg-teal-50 p-1 rounded-md w-10 text-center">{entry.icon}</span>
+              <span className="bg-teal-50 p-1 rounded-md w-10 text-center">
+                {entry.icon}
+              </span>
               <p className="text-xl font-bold">{entry.title}</p>
               <p className="leading-8">{entry.description}</p>
             </div>
