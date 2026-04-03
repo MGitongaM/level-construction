@@ -102,7 +102,7 @@ export default function NavigationSection() {
                     classNames="object-contain size-20"
                   />
                   <p className="font-semibold text-xs">
-                    Levels Services Logistics
+                    Levels Services Construction
                   </p>
                 </Link>
               </NavigationMenuItem>
