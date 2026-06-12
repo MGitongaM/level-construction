@@ -26,7 +26,7 @@ export interface VideoProps {
 export interface ContactUsEmailProps {
   fullName: string;
   email: string;
-  phoneNumber: string;
+  phone: string;
   subject: string;
   message: string;
 }

@@ -38,45 +38,38 @@ export default function FormSection() {
   async function handleContactFormSubmit(
     values: z.infer<typeof contactFormSchema>
   ) {
-    console.log("Contact Form", values);
-    toast.info("Submitting your details...");
+    // console.log("Contact Form", values);
+    
     form.reset();
-    // try {
-    //   await toast.promise(
-    //     // fetch("/api/send-contact-email", {
-    //     fetch("/api/contact-us", {
-    //       method: "POST",
-    //       body: JSON.stringify(values),
-    //     }),
-    //     {
-    //       loading: "Sending...",
-    //       success: "Details have been sent",
-    //       error: "Error, please try again later",
-    //     }
-    //   );
-    // } catch (error) {
-    //   console.log(
-    //     "Error sending Contact Us Email notification to founder from client side",
-    //     error
-    //   );
-    // }
+    try {
+      await toast.promise(
+        fetch("/api/contact-us", {
+          method: "POST",
+          body: JSON.stringify(values),
+        }),
+        {
+          loading: "Sending...",
+          success: "Details have been sent",
+          error: "Error, please try again later",
+        }
+      );
+    } catch (error) {
+      console.log(
+        "Error sending Contact Us Email notification to founder from client side",
+        error
+      );
+    }
   }
   return (
     <section className="h-full">
       <div className="container mx-auto px-4 py-10">
-        {/* <div className="max-w-xl text-center space-y-4">
-                <h2 className="text-4xl font-semibold">Send us An Email</h2>
-                <p className="leading-8">We are here to assist you with your inquiries</p>
-            </div> */}
+        
         <div className="c">
           <section className="bg-teal-900 text-slate-100 rounded-md">
             <Form {...form}>
-              {/* <div className="flex flex-wrap md:flex-nowrap justify-evenly items-start gap-8 px-8 py-20 "> */}
+              
               <div className="flex flex-col justify-evenly items-center gap-8 px-8 py-20 ">
-                {/* <div className="w-full md:w-4/12 space-y-4">
-            <p className="text-4xl font-bold">Get in Touch</p>
-            <p className="text-lg">We&apos;d love to hear from vou!</p>
-          </div> */}
+          
                 <div className="max-w-xl text-center space-y-4">
                   <h2 className="text-4xl font-semibold">Send us An Email</h2>
                   <p className="leading-8">
