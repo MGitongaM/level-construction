@@ -14,17 +14,18 @@ export default function ProjectsSection() {
           {projects.map((project) => (
             <div
               key={project.id}
-              className="flex flex-wrap md:flex-nowrap gap-y-8 my-20 border rounded-md"
+              className="flex flex-wrap md:flex-nowrap gap-y- my-20 border rounded-md"
             >
-              <div className="w-full md:w-5/12  h-[70dvh] 2xl:h-[55dvh]  rounded-md ">
+              {/* <div className="w-full md:w-5/12  h-[70dvh] 2xl:h-[55dvh]  roun"> */}
+              <div className="w-full md:w-5/12   rounded-md">
                 <ProjectImageCarousel images={project.images} />
               </div>
 
-              <div className="w-full md:w-7/12 md:mx-auto  odd:bg-white even:bg-teal-100 rounded-md px-4 py-12">
+              <div className="w-full md:w-7/12 md:mx-auto  h-[75dvh] lg:min-h-[80dvh] 2xl:min-h-[85dvh] odd:bg-white even:bg-teal-100 round px-4 py-12">
                 <h3 className="text-2xl font-semibold">{project.name}</h3>
                 <hr className="border border-l border-teal-300 my-4" />
                 <h4 className="text-lg font-semibold mb-4">Project Scope:</h4>
-                <div className="space-y-4 ml-2 h-[20dvh] overflow-y-auto px-2">
+                <div className="space-y-8 ml-2 h-[30dvh] overflow-y-auto px-2">
                   {project.scope.map((scopeList) => (
                     <p key={scopeList} className="">
                       <FilePen
