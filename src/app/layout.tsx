@@ -4,6 +4,7 @@ import "./globals.css";
 import NavigationSection from "@/components/NavigationSection";
 import FooterSection from "@/components/FooterSection";
 import { getCldOgImageUrl } from "next-cloudinary";
+import { Toaster } from "sonner";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -44,6 +45,7 @@ export default function RootLayout({
       >
         <NavigationSection />
         {children}
+        <Toaster/>
         <FooterSection/>
       </body>
     </html>

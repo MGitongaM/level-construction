@@ -39,25 +39,27 @@ export default function FormSection() {
     values: z.infer<typeof contactFormSchema>
   ) {
     console.log("Contact Form", values);
+    toast.info("Submitting your details...");
     form.reset();
-    try {
-      await toast.promise(
-        fetch("/api/send-contact-email", {
-          method: "POST",
-          body: JSON.stringify(values),
-        }),
-        {
-          loading: "Sending...",
-          success: "Details have been sent",
-          error: "Error, please try again later",
-        }
-      );
-    } catch (error) {
-      console.log(
-        "Error sending Contact Us Email notification to founder from client side",
-        error
-      );
-    }
+    // try {
+    //   await toast.promise(
+    //     // fetch("/api/send-contact-email", {
+    //     fetch("/api/contact-us", {
+    //       method: "POST",
+    //       body: JSON.stringify(values),
+    //     }),
+    //     {
+    //       loading: "Sending...",
+    //       success: "Details have been sent",
+    //       error: "Error, please try again later",
+    //     }
+    //   );
+    // } catch (error) {
+    //   console.log(
+    //     "Error sending Contact Us Email notification to founder from client side",
+    //     error
+    //   );
+    // }
   }
   return (
     <section className="h-full">

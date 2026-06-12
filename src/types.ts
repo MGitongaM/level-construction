@@ -22,3 +22,11 @@ export interface VideoProps {
     height: number;
   }
 }
+
+export interface ContactUsEmailProps {
+  fullName: string;
+  email: string;
+  phoneNumber: string;
+  subject: string;
+  message: string;
+}
