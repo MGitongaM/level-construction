@@ -20,11 +20,11 @@ export default function ExcellenceSection() {
               Why Choose Level Services Construction?
             </h2>
           </div>
-          <div className="flex flex-wrap md:flex-nowrap justify-evenly items-start gap-8 pt-14 lg:pt-10 pb-20 ">
+          <div className="flex flex-wrap lg:flex-nowrap justify-evenly items-start gap-8 pt-14 lg:pt-10 pb-20 ">
             {ExcellenceEntries.map((entry) => (
               <div
                 key={entry.id}
-                className="flex flex-col gap-8 px-4 py-8 min-h-[40vh] w-full md:w-4/12 border-2 border-teal-100 rounded-lg"
+                className="flex flex-col gap-8 px-4 py-8 h-full md:min-h-[40vh] w-full md:w-5/12 lg:w-4/12 border-2 border-teal-100 rounded-lg"
               >
                 <span>{entry.icon}</span>
                 <p className="text-2xl">{entry.title}</p>

@@ -10,12 +10,12 @@ export default function AllProcuctsSection() {
         <h1 className="text-4xl md:text-5xl font-bold text-center mb-10">
           Our Equipment Offering
         </h1>
-        <div className="flex flex-wrap justify-evenly items-start gap-x-2 gap-y-20">
+        <div className="flex flex-wrap justify-evenly items-start gap-x-2 gap-y-20 ">
           {products.map((product) => (
             <Link
               href={`products/${product.id}`}
               key={product.id}
-              className="w-5/12  md:w-3/12"
+              className="w-5/12  md:w-3/12 shadow-md hover:shadow-teal-100 rounded-lg pb-10"
               >
               <div >
                 {/* <div className="w-full h-96 bg-teal-300 rounded-lg"></div> */}
@@ -25,7 +25,7 @@ export default function AllProcuctsSection() {
                   width={800}
                   alt={product.title}
                   // classNames="object-contain h-96 w-full bg-slate-100 hover:bg-slate-200 rounded-lg p-1"
-                  classNames="object-contain h-96 w-full bg-teal-50 hover:shadow-lg  rounded-lg p-2"
+                  classNames="object-contain h-96 w-full bg-teall-50   rounded-lg p-2"
                 />
                 <div className="text- px-8 pt-2">
                   {/* <p className="text-lg font-semibold">KSH</p> */}

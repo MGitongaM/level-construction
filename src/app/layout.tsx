@@ -5,6 +5,7 @@ import NavigationSection from "@/components/NavigationSection";
 import FooterSection from "@/components/FooterSection";
 import { getCldOgImageUrl } from "next-cloudinary";
 import { Toaster } from "sonner";
+import WhatsappChat from "@/components/WhatsappChat";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -45,6 +46,7 @@ export default function RootLayout({
       >
         <NavigationSection />
         {children}
+        <WhatsappChat/>
         <Toaster/>
         <FooterSection/>
       </body>

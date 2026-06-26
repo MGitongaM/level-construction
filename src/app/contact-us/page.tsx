@@ -1,5 +1,6 @@
 import FormSection from "@/components/ContactPage/FormSection";
 import HeroSection from "@/components/ContactPage/HeroSection";
+import LocationSection from "@/components/ContactPage/LocationSection";
 import { Metadata } from "next";
 import { getCldOgImageUrl } from "next-cloudinary";
 
@@ -24,6 +25,7 @@ export default function page() {
     <>
     <main>
         <HeroSection/>
+        <LocationSection/>
         <FormSection/>
     </main>
     </>

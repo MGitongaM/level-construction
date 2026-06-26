@@ -1,5 +1,6 @@
 import { heroEntries } from "@/staticData/ServicesPage/HeroSectionData";
 import ImageView from "@/components/NextCloudinary/ImageView";
+import {Columns3Cog, FilePen, ShieldCheck } from "lucide-react";
 
 export default function ServicesOutlineSection() {
   return (
@@ -8,45 +9,52 @@ export default function ServicesOutlineSection() {
         <h2 className="text-3xl font-bold text-center  ">What We Do</h2>
         {/* first outline  */}
         <div className="flex flex-wrap-reverse md:flex-wrap justify-evenly itmes-center gap-8 -mt-20">
-          <div className="w-full md:w-6/12 lg:w-5/12 space-y-6">
+          <div className="w-full md:w-6/12 lg:w-6/12 space-y-6">
             <h3 className="text-3xl font-semibold">
-              {/* Engineering Excellence for the Construction Industry */}
-              Engineering Design & Construction Services
+              Engineering, Procurement & Construction (EPC)
             </h3>
             <p className="leading-8">
-              {/* At Level Services Construction, we deliver a full spectrum of specialized construction solutions, expertly crafted to address the unique challenges and evolving needs of our clients across Kenya and beyond. Our commitment to precision, efficiency, and innovation ensures every project is completed to the highest standards-on time and within budget */}
-              {/* We craft innovative engineering designs that address the evolving
-              needs of the petroleum and general construction sectors. By
-              leveraging cutting-edge tools and a client-focused approach, we
-              guarantee solutions that align with your vision and industry
-              demands */}
-              We undertake detailed engineering, procurement and construction in
-              accordance with applicable international and local standards. The
-              scope includes site layouts, storage tank sizing and positioning,
-              piping and instrumentation diagrams (P&IDs), pressure piping
-              designs, fire protection systems, gas detection systems, and
-              hazardous area classification. Designs are optimized for safety,
-              operational efficiency, maintainability, and regulatory compliance
+              We deliver turnkey engineering, procurement, and construction
+              (EPC) solutions from concept development through commissioning.
+              Our multidisciplinary team works collaboratively to deliver safe,
+              compliant, and cost-effective infrastructure.
+              <br/><br/>
+               Our services
+              encompass feasibility studies, engineering design, statutory
+              approvals, procurement, civil works, structural construction,
+              mechanical and electrical installations, fire protection systems,
+              instrumentation, testing, commissioning, and long-term maintenance
+              support. Every project is executed in accordance with
+              international best practices, PMI project management principles,
+              and applicable local regulations to ensure quality, safety, and
+              operational excellence.
             </p>
-            <div className="flex justify-between items-start gap-4">
-              <div className="w-full md:w-6/12 space-y-2">
-                <p className="text-base md:text-xl font-semibold">
+            <div className="flex flex-col justify-between items-start gap-4 mt-10">
+              <div className="w-full md:w-12/12 space-y-2">
+                <p className="text-base md:text-xl font-semibold flex items-center gap-2">
+                  <Columns3Cog className="text-teal-400"/>
                   Tailored Engineering Design
                 </p>
-                <p className="leading-8">
-                  Efficient, safety-oriented solutions engineered to enhance
-                  project performance
+                <p className="leading-8 pl-4">
+                  We provide practical, innovative, and safety-driven engineering designs that optimize project performance, lifecycle costs, constructability, and regulatory compliance.
                 </p>
               </div>
-              <div className="w-full md:w-6/12 space-y-2">
-                <p className="text-base md:text-xl font-semibold">
-                  {/* End-to-End Project Management */}
+              <div className="w-full md:w-12/12 space-y-2">
+                <p className="text-base md:text-xl font-semibold flex items-center gap-2">
+                  <FilePen className="text-teal-400"/>
                   Concept to Completion
                 </p>
-                <p className="leading-8">
-                  Strategic oversight that ensures compliance with industry
-                  standards and timely delivery
+                <p className="leading-8 pl-4">
+                  From feasibility and planning through procurement, construction, commissioning, and handover, we coordinate every discipline under a single project management framework to deliver projects safely, on schedule, and within budget.
                 </p>
+              </div>
+              <div className="w-full md:w-12/12 space-y-2">
+                <p className="text-base md:text-xl font-semibold flex items-center gap-2">
+                  <ShieldCheck className="text-teal-400"/>
+                  Quality, Safety & Compliance
+                </p>
+                <p className="leading-8 pl-4">
+Our commitment to rigorous quality assurance, occupational health and safety, and environmental stewardship ensures every project meets client expectations and complies with applicable industry standards and statutory requirements.                </p>
               </div>
             </div>
           </div>
@@ -117,10 +125,7 @@ export default function ServicesOutlineSection() {
               Project Management Services
             </h3>
             <p className="leading-8">
-              {/* We understand that successful projects are built on strong
-              foundations and even stronger management. That&apos;s why we offer
-              expert project management services that oversee every detail with
-              precision, from concept to completion */}
+              
               We offer professional project management services for
               infrastructure projects, overseeing all phases from planning,
               procurement to construction, commissioning, and handover. Project
@@ -129,7 +134,7 @@ export default function ServicesOutlineSection() {
               management, and progress reporting, ensuring projects are
               delivered safely, on time, and within budget.
             </p>
-            <div className="flex justify-between items-start gap-4">
+            <div className="flex justify-between items-start gap-4 mt-10">
               <div className="w-6/12 space-y-2">
                 <p className="text-base md:text-xl font-semibold">
                   Strategic Planning & Coordination

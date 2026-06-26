@@ -10,11 +10,11 @@ export default function ProjectsSection() {
           Our Project Portfolio
         </h1>
 
-        <div className="max-w-7xl  mx-auto my-10">
+        <div className="container  mx-auto my-10">
           {projects.map((project) => (
             <div
               key={project.id}
-              className="flex flex-wrap md:flex-nowrap gap-y- my-20 border rounded-md"
+              className="flex flex-wrap md:flex-nowrap gap-y- my-28 border rounded-md"
             >
               {/* <div className="w-full md:w-5/12  h-[70dvh] 2xl:h-[55dvh]  roun"> */}
               <div className="w-full md:w-5/12   rounded-md">

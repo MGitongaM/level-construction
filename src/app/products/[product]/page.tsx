@@ -10,29 +10,32 @@ export default async function page({
 }) {
   const { product } = await params;
   const Item = products.find((item) => item.id == parseInt(product));
-  const relatedProducts = products.slice(0, 5);
+
+  const productItems=products.filter((item)=>item.id!==parseInt(product))
+  // const relatedProducts = products.slice(0, 5);
+  const relatedProducts = productItems.sort(()=>0.5-Math.random()).slice(0,5);
 
   return (
     <section className="min-h-screen">
       <div className="container mx-auto px-4 py-20">
         {Item != undefined ? (
-          <div className="flex flex-wrap md:flex-nowrap justify-evenly items-start gap-8">
-            <div className="w-full md:w-4/12  space-y-12">
-              <p className="text-2xl font-semibold pt-10">{Item.title}</p>
+          <div className="flex flex-wrap md:flex-nowrap justify-evenly items-start gap-8 border-2 rounded-lg">
+            <div className="w-full md:w-5/12  space-y-12">
+              <p className="text-2xl text-center lg:text-4xl font-semibold pt-10">{Item.title}</p>
 
               <ImageView
                 imageSrc={Item.imagSrc}
                 height={800}
                 width={800}
                 alt={Item.title}
-                classNames="object-contain h-96 w-full bg-teal-50 hover:bg-teal-50 rounded-lg p-1"
+                classNames="object-contain h-96 w-full bg-teall-50 hover:bg-teall-50 rounded-lg p-1"
               />
             </div>
-            <div className="w-full md:w-5/12">
-              <p className="text-sm pl-4 font-semibold">About:</p>
-              <p className="leading-7 ml-6 px-4">{Item.details}</p>
-              <p className="text-sm pl-4 font-semibold mt-10 -mb-5">
-                Overview:
+            <div className="w-full md:w-6/12 ml-auto bg-teal-50 h-full min-h-[52dvh]">
+              <p className="text-sm pl-4 font-semibold hidden">About:</p>
+              <p className="leading-7 ml-6 px-4 hidden">{Item.details}</p>
+              <p className="text-lg pl-4 font-semibold mt-10 -mb-5">
+                Product Overview:
               </p>
               <div
                 className="py-8 px-4 prose prose-ul:list-disc prose-li:list-item leading-7 "
@@ -50,13 +53,13 @@ export default async function page({
                 key={product.id}
                 className="w-5/12 md:w-2/12"
               >
-                <div>
+                <div className="shadow-md hover:shadow-teal-100 rounded-lg pb-10">
                   <ImageView
                     imageSrc={product.imagSrc}
                     height={800}
                     width={800}
                     alt={product.title}
-                    classNames="object-contain h-64 w-full bg-teal-50 hover:shadow-lg rounded-lg p-1"
+                    classNames="object-contain h-64 w-full bg-teall-50 "
                   />
                   <div className="text- px-8 pt-4">
                     <p className="text- text-center font-semibold">

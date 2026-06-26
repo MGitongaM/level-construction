@@ -13,16 +13,15 @@ export default function OurProcessSection() {
   return (
     <>
       <section className="container mx-auto px-4 mt-20 mb-30">
-        <h2 className="text-3xl font-bold text-center">Our Project Process</h2>
-        <p className="text-center my-10">
-          At Level Serveices Construstion, we believe in delivering projects
-          through a structured, transparent, and results-oriented approach
+        <h2 className="text-3xl font-bold text-center">Our Project Delivery Process</h2>
+        <p className="text-center my-10 max-w-3xl mx-auto">
+          At Level Services Construction, every project is delivered using internationally recognized Project Management Institute (PMI) principles to ensure safety, quality, schedule, and cost control.
         </p>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-10">
           {ourWorkProcesses.map((process) => (
             <Card
               key={process.id}
-              className="max-h-80 pl-2: pl-10 nth-1:bg-teal-200/10 nth-2:bg-teal-200/20 nth-3:bg-teal-200/30 nth-4:bg-teal-200/40 nth-5:bg-teal-200/50 nth-6:bg-teal-200/60 w-full md:w-10/12"
+              className="h-full md:min-h-90 pl-2: pl-10 pb-14 mb:pb-10 nth-1:bg-teal-200/10 nth-2:bg-teal-200/20 nth-3:bg-teal-200/30 nth-4:bg-teal-200/40 nth-5:bg-teal-200/50 nth-6:bg-teal-200/60 w-full md:w-12/12"
             >
               <Badge variant="outline" className="bg-white">
                 step - {process.id}
