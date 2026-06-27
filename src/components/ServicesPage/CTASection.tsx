@@ -14,16 +14,17 @@ export default function CTASection() {
               Let&apos;s bring your vision to life with expert consultation and
               tailored solutions that deliver real impact
             </p>
+          </div>
+          <div className="w-full md:w-6/12 h-80 bg-teal-600 md:rounded-r-md grid place-content-center">
             <Link href="/contact-us">
               <Button
                 size="lg"
-                className="bg-teal-400 text-black hover:bg-teal-600 hover:text-slate-100 hover:scale-110"
+                className="bg-teal-100 text-black text-xl hover:bg-teal-400 hover:text-slate-100 hover:scale-110"
               >
                 Contact Us Today
               </Button>
             </Link>
           </div>
-          <div className="w-full md:w-6/12 h-80 bg-teal-600 md:rounded-r-md"></div>
         </div>
       </div>
     </section>

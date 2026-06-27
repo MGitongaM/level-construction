@@ -36,7 +36,7 @@ export const ExcellenceEntries = [
       <Award className="size-8 text-teal-400 bg-teal-100 rounded-md p-1" />
     ),
     title: "Industry Expertise",
-    text: "Deep-rooted technical knowledge in energy infrastructure and large-scale project management",
+    text: "Deep-rooted technical knowledge in energy infrastructure and large scale project management",
   },
   {
     id: 2,
@@ -60,6 +60,6 @@ export const ExcellenceEntries = [
       <Headset className="size-8 text-teal-400 bg-teal-100 rounded-md p-1" />
     ),
     title: "Support",
-    text: "Our team provides end-to-end guidance, ensuring seamless execution from initial site-map to post-project maintenance",
+    text: "Our team provides end to end guidance, ensuring seamless execution from initial site map to post project maintenance",
   },
 ];

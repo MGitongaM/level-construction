@@ -57,7 +57,7 @@ export default function HeroSection() {
               Expert Construction Solutions for Kenya&apos;s Leading Industries
             </h1>
             <p className="max-w-5xl text-lg md:text-xl font-semibold leading-8 text-balance">
-              At Level Services Construction, we deliver exceptional
+              Level Services Construction Limited delivers exceptional
               construction and engineering services tailored for the Kenyan
               market. Our unwavering commitment to quality, safety, and timely
               delivery ensures your projects are completed to the highest

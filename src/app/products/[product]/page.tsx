@@ -35,7 +35,7 @@ export default async function page({
               <p className="text-sm pl-4 font-semibold hidden">About:</p>
               <p className="leading-7 ml-6 px-4 hidden">{Item.details}</p>
               <p className="text-lg pl-4 font-semibold mt-10 -mb-5">
-                Product Overview:
+                Equipment Overview:
               </p>
               <div
                 className="py-8 px-4 prose prose-ul:list-disc prose-li:list-item leading-7 "
@@ -44,14 +44,14 @@ export default async function page({
             </div>
           </div>
         ) : null}
-        <div className=" pt-40 pl-0 md:pl-20">
+        <div className=" pt-40 pl-0 ">
           <p className="text-xl font-bold pb-10">Related Products</p>
           <div className="flex flex-wrap justify-evenly items-start gap-x-2 gap-y-20">
             {relatedProducts.map((product) => (
               <Link
                 href={`/products/${product.id}`}
                 key={product.id}
-                className="w-5/12 md:w-2/12"
+                className="w-5/12 md:w-3/12 lg:w-2/12"
               >
                 <div className="shadow-md hover:shadow-teal-100 rounded-lg pb-10">
                   <ImageView
@@ -61,8 +61,8 @@ export default async function page({
                     alt={product.title}
                     classNames="object-contain h-64 w-full bg-teall-50 "
                   />
-                  <div className="text- px-8 pt-4">
-                    <p className="text- text-center font-semibold">
+                  <div className="px-1 xl:px-8 pt-4">
+                    <p className="text-sm  text-center font-semibold">
                       {product.title}
                     </p>
                   </div>

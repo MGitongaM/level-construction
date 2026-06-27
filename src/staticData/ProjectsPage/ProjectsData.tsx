@@ -64,12 +64,11 @@ export const projects = [
     id: 5,
     name: "Petrocity, Mavoko",
     images: [
-      "Petrocity_Mavoko_1_wneml5",
-      "Petrocity_Mavoko_2_vh7zvn",
-      "Petrocity_Mavoko_3_lmizgv",
-      "Petrocity_Mavoko_4_go9ujb",
-      "Petrocity_Mavoko_5_ws7ja8",
-      "Petrocity_Mavoko_6_q2z7uq",
+      "mavoko_1_aziozi",
+      "mavoko_4_fsfjlh",
+      "mavoko_2_sid3ng",
+      "mavoko_3_cbbn0p",
+      
     ],
     scope: [
       "Strategically designed and civil construction of the fuel station.",

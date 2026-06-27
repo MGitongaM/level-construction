@@ -17,7 +17,7 @@ export default function ServicesOutlineSection() {
               We deliver turnkey engineering, procurement, and construction
               (EPC) solutions from concept development through commissioning.
               Our multidisciplinary team works collaboratively to deliver safe,
-              compliant, and cost-effective infrastructure.
+              compliant, and cost effective infrastructure.
               <br/><br/>
                Our services
               encompass feasibility studies, engineering design, statutory
@@ -36,7 +36,7 @@ export default function ServicesOutlineSection() {
                   Tailored Engineering Design
                 </p>
                 <p className="leading-8 pl-4">
-                  We provide practical, innovative, and safety-driven engineering designs that optimize project performance, lifecycle costs, constructability, and regulatory compliance.
+                  We provide practical, innovative, and safety driven engineering designs that optimize project performance, lifecycle costs, constructability, and regulatory compliance.
                 </p>
               </div>
               <div className="w-full md:w-12/12 space-y-2">

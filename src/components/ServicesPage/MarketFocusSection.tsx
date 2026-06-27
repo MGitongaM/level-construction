@@ -9,7 +9,7 @@ export const MarketFocusSection = () => {
         id="focusIndusties"
       >
         <h2 className="text-3xl font-bold text-center">Industries We Serve</h2>
-        <p className="text-center max-w-3xl mx-auto py-8">
+        <p className="text-center max-w-4xl mx-auto py-8 text-balance">
           We take pride in building the infrastructure that powers our
           communities. From energy plants to specialized industrial facilities
           to commercial spaces, our team applies deep rooted technical knowledge

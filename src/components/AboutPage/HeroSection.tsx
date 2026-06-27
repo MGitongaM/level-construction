@@ -8,18 +8,18 @@ export default function HeroSection() {
               Building Future Solutions, <br /> One Project at a Time
             </h1>
           </div>
-          <div className="max-w-3xl mx-auto text-center">
-            <p className="text-lg font-semibold leading-8">
+          <div className="max-w-4xl mx-auto text-center">
+            <p className="text-lg text-balance font-semibold leading-8">
               {/* At Level Services Construction, we are more than just builders-we
               are your trusted partners in shaping Kenya&apos;s skylines and
               communities. With years of experience in the construction and
               engineering sector, our team is dedicated to delivering
               innovative, reliable, and sustainable solutions tailored to the
               unique needs of our clients */}
-              Level Services Construction is an engineering, procurement, and
+              Level Services Construction Limited is an engineering, procurement, and
               construction (EPC) company operating in the infrastructure and
               energy sectors. Established to meet the growing demand for
-              specialized expertise in oil and gas, We have since expanded our
+              specialized expertise in oil and gas. We have since expanded our
               focus to general infrastructure construction, clean and
               sustainable energy solutions
             </p>

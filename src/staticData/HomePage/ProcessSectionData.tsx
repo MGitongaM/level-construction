@@ -25,6 +25,7 @@ export const ProcessEntries = [
     {
       id: 1,
       icon: <NotebookTabs />,
+      image:"Project_Initiation_ku1jjw",
       title: "Project Initiation:",
       details:
         "We begin by understanding your project objectives, conducting site assessments, and evaluating technical and commercial feasibility. This phase concludes with a clearly defined scope, proposal, and contract agreement.",
@@ -32,33 +33,38 @@ export const ProcessEntries = [
     {
       id: 2,
       icon: <PencilRuler />,
+      image:"Planning_Design_c8rtup",
       title: "Planning & Design:",
       details: "Our project managers coordinate Civil, Structural, Mechanical, Electrical, and Instrumentation Engineers alongside Architects, Quantity Surveyors (QS), Planners, Surveyors, Environmental Impact Assessment (EIA) experts, and Fire Safety Specialists to develop detailed designs, BOQs, project schedules, HSE plans, risk assessments, and obtain all statutory approvals.",
     },
     {
       id: 3,
       icon: <Truck />,
+      image:"Procurement_Mobilization_oh5wjf",
       title: "Procurement & Mobilization:",
       details: "We procure quality materials and equipment, coordinate logistics and mobilize skilled personnel and resources to site. This ensures construction begins safely, efficiently and without unnecessary delays.",
     },
     {
       id: 4,
       icon: <BrickWall />,
-      title: "Project Execution",
+      image:"Project_Execution_miwf5b",
+      title: "Project Execution:",
       details: "Construction is carried out in accordance with approved designs and industry standards, covering civil works, structural steel, LPG tanks, mechanical installations, piping, electrical systems, and instrumentation under strict quality and safety controls.",
     },
     {
       id: 5,
       icon: <ScrollText />,
-      title: "Testing & Commissioning",
+      image:"Testing_Commissioning_ptjlm3",
+      title: "Testing & Commissioning:",
       details: "Comprehensive inspections, pressure testing, calibration, and system commissioning are performed to verify compliance with project specifications, regulatory requirements and operational performance before client acceptance.",
     },
     {
       id: 6,
       icon: <HousePlus />,
-      title: "Project Closeout & Support",
+      image:"Project_Closeout_Support_z6ies3",
+      title: "Project Closeout & Support:",
       details:
-        "Upon successful completion, we deliver as-built documentation, operation and maintenance manuals, and staff training. Our commitment continues through warranty services, preventive maintenance and ongoing technical support.",
+        "Upon successful completion, we deliver as built documentation, operation and maintenance manuals, and staff training. Our commitment continues through warranty services, preventive maintenance and ongoing technical support.",
     },
   ];
 //  export const ourWorkProcesses = [

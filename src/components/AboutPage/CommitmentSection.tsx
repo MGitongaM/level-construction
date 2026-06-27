@@ -11,7 +11,7 @@ export default function CommitmentSection() {
               Construction
             </h2>
             <p className="leading-8">
-              At Level Construction, our mission is to provide top-notch
+              At Level Construction, our mission is to provide top notch
               construction and engineering services that set new standards for
               quality, safety, and efficiency. We believe in building strong
               relationships with our clients, founded on trust, transparency,

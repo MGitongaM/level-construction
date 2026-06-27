@@ -149,7 +149,7 @@ export const products = [
       details:
         "",
       moreDetails: `<ul>
-        <li><strong>Model</strong>: JQQ-K-LPG-2.2-3.1 3nails type</li>
+        <li><strong>Model</strong>: JQQ-K-LPG-2.2-3.1 3 nails type</li>
         <li><strong>Rated work stress</strong>: ≤2.2Mpa</li>
         <li><strong>Work environmental temperature</strong>: -30~50°C</li>
         <li><strong>Rated flow</strong>: 45L/min</li>
@@ -165,7 +165,7 @@ export const products = [
       details:
         "",
       moreDetails: `<ul>
-        <li><strong>Model</strong>: JQQ-K-LPG-2.2-4.2 4nails type</li>
+        <li><strong>Model</strong>: JQQ-K-LPG-2.2-4.2 4 nails type</li>
         <li><strong>Rated work stress</strong>: ≤2.2Mpa</li>
         <li><strong>Work environmental temperature</strong>: -30~50°C</li>
         <li><strong>Rated flow</strong>: 45L/min</li>
