@@ -3,12 +3,12 @@ import { Mail, MapPinHouse, Phone } from "lucide-react";
 export default function HeroSection() {
   return (
     <section className="min-h-[40dvh]">
-      <div className="min-h-[80dvh] grid place-content-center container mx-auto px-4 pt-10">
+      <div className="min-h-[80dvh] grid  place-content-center container mx-auto px-4  -mt-20  lg:pt-10">
         <div className="flex flex-wrap md:flex-nowrap justify-between items-center gap-8">
           <div className="w-full md:w-7/12 space-y-6">
             <h1 className="text-4xl font-bold">Get in Touch</h1>
             <p className="text-lg font-semibold leading-8">
-              Were here to assist vou with any inquiries or project discussions
+              Were here to assist you with any inquiries or project discussions
               you may have
             </p>
           </div>
