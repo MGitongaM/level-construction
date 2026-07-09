@@ -33,7 +33,7 @@ export const ProcessEntries = [
     {
       id: 2,
       icon: <PencilRuler />,
-      image:"Planning_Design_c8rtup",
+      image:"Planning_Design_w1ecej",
       title: "Planning & Design:",
       details: "Our project managers coordinate Civil, Structural, Mechanical, Electrical, and Instrumentation Engineers alongside Architects, Quantity Surveyors (QS), Planners, Surveyors, Environmental Impact Assessment (EIA) experts, and Fire Safety Specialists to develop detailed designs, BOQs, project schedules, HSE plans, risk assessments, and obtain all statutory approvals.",
     },
@@ -54,7 +54,7 @@ export const ProcessEntries = [
     {
       id: 5,
       icon: <ScrollText />,
-      image:"Testing_Commissioning_ptjlm3",
+      image:"Testing_Commissioning_l6pxmy",
       title: "Testing & Commissioning:",
       details: "Comprehensive inspections, pressure testing, calibration, and system commissioning are performed to verify compliance with project specifications, regulatory requirements and operational performance before client acceptance.",
     },

@@ -143,13 +143,13 @@
 export const products = [
     {
       id: 1,
-      title: "3 Nails Type",
+      title: "Nozzle",
       imagSrc: "3_Nails_type_mwiof9",
       price: 0,
       details:
         "",
       moreDetails: `<ul>
-        <li><strong>Model</strong>: JQQ-K-LPG-2.2-3.1 3 nails type</li>
+        <li><strong>Model</strong>: JQQ-K-LPG-2.2-3.1 3 nails type nozzle</li>
         <li><strong>Rated work stress</strong>: ≤2.2Mpa</li>
         <li><strong>Work environmental temperature</strong>: -30~50°C</li>
         <li><strong>Rated flow</strong>: 45L/min</li>
@@ -159,13 +159,13 @@ export const products = [
     },
     {
       id: 2,
-      title: "4 Nails Type ",
+      title: "Nozzle",
       imagSrc: "4_Nails_type_gjmyt0",
       price: 0,
       details:
         "",
       moreDetails: `<ul>
-        <li><strong>Model</strong>: JQQ-K-LPG-2.2-4.2 4 nails type</li>
+        <li><strong>Model</strong>: JQQ-K-LPG-2.2-4.2 4 nails type nozzle</li>
         <li><strong>Rated work stress</strong>: ≤2.2Mpa</li>
         <li><strong>Work environmental temperature</strong>: -30~50°C</li>
         <li><strong>Rated flow</strong>: 45L/min</li>
