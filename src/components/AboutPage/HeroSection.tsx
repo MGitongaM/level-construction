@@ -1,6 +1,6 @@
 export default function HeroSection() {
   return (
-    <section className="min-h-[80dvh] bg-teal-100 w-full bg-[url('https://res.cloudinary.com/dh8qlzbzk/image/upload/v1746776458/homeHeroImg_y1ghvh.jpg')] bg-cover bg-center bg-no-repeat bg">
+    <section className="min-h-[80dvh] bg-teal-100 w-full bg-[url('https://res.cloudinary.com/hqho8qw7/image/upload/v1792145951/homeHeroImg_y1ghvh.jpg')] bg-cover bg-center bg-no-repeat bg">
       <div className="min-h-[80dvh] bg-teal-900/85 backdrop-blur-sm relative">
         <div className="min-h-[80dvh] grid place-content-center container text-slate-100 mx-auto px-4 py-10 space-y-6">
           <div className="max-w-4xl mx-auto text-center">
