@@ -6,21 +6,21 @@ import ServicesOutlineSection from "@/components/ServicesPage/ServicesOutlineSec
 import { Metadata } from "next";
 import { getCldOgImageUrl } from "next-cloudinary";
 
-const url =getCldOgImageUrl({
-  src:"services_ql5fr9",
-})
+const url = getCldOgImageUrl({
+  src: "services_ql5fr9",
+});
 
 export const metadata: Metadata = {
-  title: "Our Services - Level Services Construction",
+  title: "Our Services - Level Services Limited",
   description:
     "We offer a diverse range of specialized services tailored to meet the unique challenges of each project.",
-    openGraph:{
-      images:{
-        width:1200,
-        height:800,
-        url,
-      }
-    }
+  openGraph: {
+    images: {
+      width: 1200,
+      height: 800,
+      url,
+    },
+  },
 };
 
 export default function page() {
@@ -28,10 +28,10 @@ export default function page() {
     <>
       <main>
         <HeroSection />
-        <ServicesOutlineSection/>
+        <ServicesOutlineSection />
         {/* <ClientFeedbackSection/> */}
-        <MarketFocusSection/>
-        <CTASection/>
+        <MarketFocusSection />
+        <CTASection />
       </main>
     </>
   );

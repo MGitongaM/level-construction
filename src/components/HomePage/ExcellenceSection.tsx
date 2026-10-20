@@ -10,14 +10,14 @@ export default function ExcellenceSection() {
               Our Commitment to Quality and Safety
             </h2>
             <p className="leading-8">
-              At Level Services Construction, safety is at the core of
-              everything we do. Our robust protocols create a secure working
-              environment, protecting both our team and your investment.
+              At Level Services Limited, safety is at the core of everything we
+              do. Our robust protocols create a secure working environment,
+              protecting both our team and your investment.
             </p>
           </div>
           <div className="max-w-2xl pt-20">
             <h2 className="text-3xl font-medium">
-              Why Choose Level Services Construction?
+              Why Choose Level Services Limited?
             </h2>
           </div>
           <div className="flex flex-wrap lg:flex-nowrap justify-evenly items-start gap-8 pt-14 lg:pt-10 pb-20 ">

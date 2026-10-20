@@ -4,30 +4,30 @@ import LocationSection from "@/components/ContactPage/LocationSection";
 import { Metadata } from "next";
 import { getCldOgImageUrl } from "next-cloudinary";
 
-const url =getCldOgImageUrl({
-  src:"contact_xay5yz",
-})
+const url = getCldOgImageUrl({
+  src: "contact_xay5yz",
+});
 
 export const metadata: Metadata = {
-  title: "Contact Us - Level Services Construction",
+  title: "Contact Us - Level Services Limited",
   description:
     "Were here to assist you with any inquiries or project discussions you may have",
-    openGraph:{
-      images:{
-        width:1200,
-        height:800,
-        url,
-      }
-    }
+  openGraph: {
+    images: {
+      width: 1200,
+      height: 800,
+      url,
+    },
+  },
 };
 export default function page() {
   return (
     <>
-    <main>
-        <HeroSection/>
-        <LocationSection/>
-        <FormSection/>
-    </main>
+      <main>
+        <HeroSection />
+        <LocationSection />
+        <FormSection />
+      </main>
     </>
-  )
+  );
 }

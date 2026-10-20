@@ -18,11 +18,11 @@ export default function PartnerSection() {
         />
         <div className="max-w-5xl mx-auto space-y-6">
           <p className="text-balance leading-8 text-center">
-            At Level Services Construction, your satisfaction is our top
-            priority. From residential developments to large scale commercial
-            projects, we are committed to delivering excellence at every stage.
-            We take pride in being a reliable partner you can count on-today and
-            for generations to come
+            At Level Services Limited, your satisfaction is our top priority.
+            From residential developments to large scale commercial projects, we
+            are committed to delivering excellence at every stage. We take pride
+            in being a reliable partner you can count on-today and for
+            generations to come
           </p>
           <div className=" flex flex-wrap md:flex-nowrap justify-evenly items-start gap-8">
             <div className="w-full md:w-6/12 space-y-6 border border-teal-400 rounded-md px-4 py-8">

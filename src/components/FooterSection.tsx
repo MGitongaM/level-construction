@@ -8,7 +8,7 @@ export default function FooterSection() {
         {/* <div className="flex justify-between items-center bg-green-800 text-slate-100 rounded-xl px-8 py-10"> */}
         <div className="flex flex-wrap md:flex-nowrap justify-between items-center gap-y-8 bg-teal-950 text-slate-100 rounded-xl px-8 py-10">
           <div className="w-full md:w-5/12 space-y-4">
-            <Link href={`/`} className="flex items-center" >
+            <Link href={`/`} className="flex items-center">
               <ImageView
                 // imageSrc="level_services_logo_bg-transparent_ellvje"
                 imageSrc="levels_services_transparent_logo_only_zquhit"
@@ -17,10 +17,11 @@ export default function FooterSection() {
                 alt=""
                 classNames="object-cover size-20"
               />
-              <p className="font-semibold">Level Services Construction</p>
+              <p className="font-semibold">Level Services Limited</p>
             </Link>
             <p className="text-3xl md:text-5xl leading-12">
-              Your Trusted Partner <br/>in Construction
+              Your Trusted Partner <br />
+              in Construction
             </p>
             <p className="text-xs">
               {/* Delivery excellence in trucking and transportation for the
@@ -38,7 +39,9 @@ export default function FooterSection() {
                 </li>
                 <li className="hover:underline underline-offset-2">
                   {/* <Link href={`/our-services/#click-testimonials`}>Testimonials</Link> */}
-                  <Link href={`/our-services/#focusIndusties`}>Focus Industries</Link>
+                  <Link href={`/our-services/#focusIndusties`}>
+                    Focus Industries
+                  </Link>
                 </li>
                 <li className="hover:underline underline-offset-2">
                   <Link href={`/our-services`}>Services</Link>

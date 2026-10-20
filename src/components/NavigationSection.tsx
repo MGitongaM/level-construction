@@ -67,7 +67,7 @@ export default function NavigationSection() {
                   alt=""
                   classNames="object-cover size-12 lg:size-20"
                 />
-                <p className="font-semibold">Level Services Construction</p>
+                <p className="font-semibold">Level Services Limited</p>
               </Link>
             </NavigationMenuItem>
           </div>

@@ -12,9 +12,9 @@ export default function DiscoverSection() {
               Construction
             </h2>
             <p className="leading-8">
-              Choosing Level Services Construction means partnering with a team
-              you can trust. Our deep industry expertise, reliability, and focus
-              on efficiency ensure your project is delivered on time, within
+              Choosing Level Services Limited means partnering with a team you
+              can trust. Our deep industry expertise, reliability, and focus on
+              efficiency ensure your project is delivered on time, within
               budget, and to the highest standards
             </p>
             <ul className="list-none space-y-4">

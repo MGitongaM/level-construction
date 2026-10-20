@@ -9,12 +9,12 @@ export default function HeroSection() {
             Comprehensive Solutions for the Construction Industry
           </h1>
           <p className="text-lg font-semibold leading-8">
-            At Level Services Construction, we offer a diverse range of
-            specialized services tailored to meet the unique challenges of each
-            project. From engineering design to project execution and
-            management, our team ensures precision, safety, and efficiency at
-            every stage. We&apos;re committed to delivering lasting solutions that
-            drive results for our clients across Kenya and beyond
+            At Level Services Limited, we offer a diverse range of specialized
+            services tailored to meet the unique challenges of each project.
+            From engineering design to project execution and management, our
+            team ensures precision, safety, and efficiency at every stage.
+            We&apos;re committed to delivering lasting solutions that drive
+            results for our clients across Kenya and beyond
           </p>
         </div>
         {/* <div className="flex flex-wrap md:flex-nowrap justify-evenly items-start gap-10 lg:gap-20 pt-20 lg:px-20">

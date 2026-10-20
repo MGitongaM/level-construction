@@ -3,15 +3,15 @@ export default function page() {
     <section className="h-full">
       <div className="max-w-4xl mx-auto space-y-8 px-4 py-20">
         <h1 className="text-3xl font-bold">
-          Privacy Policy for Level Services Construction{" "}
+          Privacy Policy for Level Services Limited{" "}
         </h1>
         <p className="c">
-          At Level Services Construction (“we”, “our”, or “us”), your privacy is
-          a top priority. This Privacy Policy explains how we collect, use,
-          store, and protect your personal information in compliance with the
-          Kenyan Data Protection Act, 2019, and global data privacy standards
-          such as the EU General Data Protection Regulation (GDPR) and the
-          California Consumer Privacy Act (CCPA)
+          At Level Services Limited (“we”, “our”, or “us”), your privacy is a
+          top priority. This Privacy Policy explains how we collect, use, store,
+          and protect your personal information in compliance with the Kenyan
+          Data Protection Act, 2019, and global data privacy standards such as
+          the EU General Data Protection Regulation (GDPR) and the California
+          Consumer Privacy Act (CCPA)
         </p>
 
         <div className="c">
@@ -135,7 +135,7 @@ export default function page() {
             your data rights, please contact:
           </p>
           <p className="c">
-            Level Services Construction
+            Level Services Limited
             <br />
             Email: nfo@levelservices.biz
             <br />

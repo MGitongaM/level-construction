@@ -17,21 +17,21 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const url =getCldOgImageUrl({
-  src:"home_ccd0jy",
-})
+const url = getCldOgImageUrl({
+  src: "home_ccd0jy",
+});
 
 export const metadata: Metadata = {
-  title: "Level Services Construction",
+  title: "Level Services Limited",
   description:
     "We deliver exceptional construction and engineering services tailored for the Kenyan market.",
-    openGraph:{
-      images:{
-        width:1200,
-        height:800,
-        url,
-      }
-    }
+  openGraph: {
+    images: {
+      width: 1200,
+      height: 800,
+      url,
+    },
+  },
 };
 
 export default function RootLayout({
@@ -46,9 +46,9 @@ export default function RootLayout({
       >
         <NavigationSection />
         {children}
-        <WhatsappChat/>
-        <Toaster/>
-        <FooterSection/>
+        <WhatsappChat />
+        <Toaster />
+        <FooterSection />
       </body>
     </html>
   );

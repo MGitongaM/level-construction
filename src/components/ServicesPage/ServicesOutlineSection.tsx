@@ -1,6 +1,6 @@
 import { heroEntries } from "@/staticData/ServicesPage/HeroSectionData";
 import ImageView from "@/components/NextCloudinary/ImageView";
-import {Columns3Cog, FilePen, ShieldCheck } from "lucide-react";
+import { Columns3Cog, FilePen, ShieldCheck } from "lucide-react";
 
 export default function ServicesOutlineSection() {
   return (
@@ -18,43 +18,52 @@ export default function ServicesOutlineSection() {
               (EPC) solutions from concept development through commissioning.
               Our multidisciplinary team works collaboratively to deliver safe,
               compliant, and cost effective infrastructure.
-              <br/><br/>
-               Our services
-              encompass feasibility studies, engineering design, statutory
-              approvals, procurement, civil works, structural construction,
-              mechanical and electrical installations, fire protection systems,
-              instrumentation, testing, commissioning, and long-term maintenance
-              support. Every project is executed in accordance with
-              international best practices, PMI project management principles,
-              and applicable local regulations to ensure quality, safety, and
-              operational excellence.
+              <br />
+              <br />
+              Our services encompass feasibility studies, engineering design,
+              statutory approvals, procurement, civil works, structural
+              construction, mechanical and electrical installations, fire
+              protection systems, instrumentation, testing, commissioning, and
+              long-term maintenance support. Every project is executed in
+              accordance with international best practices, PMI project
+              management principles, and applicable local regulations to ensure
+              quality, safety, and operational excellence.
             </p>
             <div className="flex flex-col justify-between items-start gap-4 mt-10">
               <div className="w-full md:w-12/12 space-y-2">
                 <p className="text-base md:text-xl font-semibold flex items-center gap-2">
-                  <Columns3Cog className="text-teal-400"/>
+                  <Columns3Cog className="text-teal-400" />
                   Tailored Engineering Design
                 </p>
                 <p className="leading-8 pl-4">
-                  We provide practical, innovative, and safety driven engineering designs that optimize project performance, lifecycle costs, constructability, and regulatory compliance.
+                  We provide practical, innovative, and safety driven
+                  engineering designs that optimize project performance,
+                  lifecycle costs, constructability, and regulatory compliance.
                 </p>
               </div>
               <div className="w-full md:w-12/12 space-y-2">
                 <p className="text-base md:text-xl font-semibold flex items-center gap-2">
-                  <FilePen className="text-teal-400"/>
+                  <FilePen className="text-teal-400" />
                   Concept to Completion
                 </p>
                 <p className="leading-8 pl-4">
-                  From feasibility and planning through procurement, construction, commissioning, and handover, we coordinate every discipline under a single project management framework to deliver projects safely, on schedule, and within budget.
+                  From feasibility and planning through procurement,
+                  construction, commissioning, and handover, we coordinate every
+                  discipline under a single project management framework to
+                  deliver projects safely, on schedule, and within budget.
                 </p>
               </div>
               <div className="w-full md:w-12/12 space-y-2">
                 <p className="text-base md:text-xl font-semibold flex items-center gap-2">
-                  <ShieldCheck className="text-teal-400"/>
+                  <ShieldCheck className="text-teal-400" />
                   Quality, Safety & Compliance
                 </p>
                 <p className="leading-8 pl-4">
-Our commitment to rigorous quality assurance, occupational health and safety, and environmental stewardship ensures every project meets client expectations and complies with applicable industry standards and statutory requirements.                </p>
+                  Our commitment to rigorous quality assurance, occupational
+                  health and safety, and environmental stewardship ensures every
+                  project meets client expectations and complies with applicable
+                  industry standards and statutory requirements.{" "}
+                </p>
               </div>
             </div>
           </div>
@@ -85,7 +94,7 @@ Our commitment to rigorous quality assurance, occupational health and safety, an
               Petroleum Industry Construction Expertise
             </h3>
             <p className="leading-8">
-              At Level Services Construction, we bring specialized knowledge to
+              At Level Services Limited, we bring specialized knowledge to
               petroleum-sector projects. Our construction solutions are tailored
               to meet the rigorous safety and quality requirements of this vital
               industry, ensuring operational integrity from the ground up
@@ -125,7 +134,6 @@ Our commitment to rigorous quality assurance, occupational health and safety, an
               Project Management Services
             </h3>
             <p className="leading-8">
-              
               We offer professional project management services for
               infrastructure projects, overseeing all phases from planning,
               procurement to construction, commissioning, and handover. Project

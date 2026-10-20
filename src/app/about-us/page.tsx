@@ -6,31 +6,30 @@ import Team from "@/components/AboutPage/Team";
 import { Metadata } from "next";
 import { getCldOgImageUrl } from "next-cloudinary";
 
-const url =getCldOgImageUrl({
-  src:"about_k9pevl",
-})
+const url = getCldOgImageUrl({
+  src: "about_k9pevl",
+});
 
 export const metadata: Metadata = {
-  title: "About Us - Level Services Construction",
+  title: "About Us - Level Services Limited",
   description:
     "We are more than just builders we are your trusted partners in shaping Kenya's skylines and communities.",
-    openGraph:{
-      images:{
-        width:1200,
-        height:800,
-        url,
-      }
-    }
+  openGraph: {
+    images: {
+      width: 1200,
+      height: 800,
+      url,
+    },
+  },
 };
 
 export default function page() {
-
   return (
     <>
       <main>
         <HeroSection />
         <CommitmentSection />
-        <Team/>
+        <Team />
         <PartnerSection />
         <FAQsSection />
       </main>

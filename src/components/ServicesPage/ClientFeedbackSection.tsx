@@ -21,9 +21,9 @@ export default function ClientFeedbackSection() {
               ))}
             </div>
             <p className="leaading-8">
-              &quot;The team at Level Services Construction exceeded our
-              expectations with their professionalism and attention to detail.
-              Every phase of the project was executed flawlessly&quot;
+              &quot;The team at Level Services Limited exceeded our expectations
+              with their professionalism and attention to detail. Every phase of
+              the project was executed flawlessly&quot;
             </p>
             <div className="flex justify-between items-center gap-4">
               <div className="w-5/12 ">
