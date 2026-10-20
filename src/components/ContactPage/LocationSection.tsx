@@ -10,7 +10,7 @@ export default function LocationSection() {
           allowFullScreen
           loading="lazy"
           referrerPolicy="strict-origin-when-cross-origin"
-          className="w-full h-96"
+          className="w-full h-96 rounded-md"
         />
       </div>
     </>

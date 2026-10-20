@@ -24,9 +24,9 @@ export default function page() {
   return (
     <>
       <main>
+        <FormSection />
         <HeroSection />
         <LocationSection />
-        <FormSection />
       </main>
     </>
   );
