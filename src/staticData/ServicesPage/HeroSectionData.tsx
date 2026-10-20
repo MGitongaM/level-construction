@@ -1,5 +1,7 @@
 // import { Car, HousePlug, TimerResetIcon } from "lucide-react";
 
+import { ClipboardEdit, DrillIcon, WrenchIcon } from "lucide-react";
+
 export const heroEntries = [
   {
     id: 1,
@@ -8,7 +10,8 @@ export const heroEntries = [
       // "Our engineering team delivers innovative solutions that enhance project outcomes",
       "We deliver innovative, efficient engineering solutions that enhance project outcomes. By integrating advanced technologies and industry best practices, we help you build smarter and safer",
     // icon: <Car className="text-teal-300 size-8 bg-teal-50 rounded-md p-1" />,
-    icon: "🏗",
+    // icon: "🏗",
+    icon:<DrillIcon className="text-teal-500"/>
   },
   {
     id: 2,
@@ -19,7 +22,8 @@ export const heroEntries = [
     // icon: (
     //   <HousePlug className="text-teal-300 size-8 bg-teal-50 rounded-md p-1" />
     // ),
-    icon: "🛠",
+    // icon: "🛠",
+    icon:<WrenchIcon className="text-teal-500"/>
   },
   {
     id: 3,
@@ -30,6 +34,7 @@ export const heroEntries = [
     // icon: (
     //   <TimerResetIcon className="text-teal-300 size-8 bg-teal-50 rounded-md p-1" />
     // ),
-    icon: "📋",
+    // icon: "📋",
+    icon:<ClipboardEdit className="text-teal-500"/>
   },
 ];
