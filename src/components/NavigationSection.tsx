@@ -17,6 +17,7 @@ import {
 } from "./ui/sheet";
 import { MenuSquare } from "lucide-react";
 import ImageView from "./NextCloudinary/ImageView";
+import { useState } from "react";
 
 export default function NavigationSection() {
   const navLinks = [
@@ -51,6 +52,7 @@ export default function NavigationSection() {
       hrefLink: "/contact-us",
     },
   ];
+    const [open, setOpen] = useState(false);
   return (
     <>
       <NavigationMenu className="hidden lg:block">
@@ -102,7 +104,7 @@ export default function NavigationSection() {
                     classNames="object-contain size-20"
                   />
                   <p className="font-semibold text-xs">
-                    Levels Services Construction
+                    Levels Services Limited
                   </p>
                 </Link>
               </NavigationMenuItem>
@@ -121,6 +123,7 @@ export default function NavigationSection() {
                     {navLinks.map((nav) => (
                       <NavigationMenuItem key={nav.id}>
                         <NavigationMenuLink
+                        onClick={()=>setOpen(false)}
                           className={`${navigationMenuTriggerStyle()} whitespace-nowrap font-bold hover:bg-teal-100`}
                           // className={` whitespace-nowrap font-bold hover:bg-teal-100`}
                           asChild
