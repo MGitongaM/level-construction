@@ -110,7 +110,7 @@ export default function NavigationSection() {
               </NavigationMenuItem>
             </div>
             <div className="c">
-              <Sheet>
+              <Sheet open={open} onOpenChange={setOpen}>
                 <SheetTrigger>
                   <MenuSquare className="text-teal-400" />
                 </SheetTrigger>
